@@ -34,21 +34,20 @@
   <div class="container" id="main">
 	
       <div class="row-fluid down40">	
-	<div class="span8">		
-           {{ content }}
-        </div>
         <div class="span4">
-
-	  <div class="navigation">
+	   <h2>Key Themes</h2>
+	   {{ toc }}
+	   <div class="navigation">
 	      <ul>
 	        <li class="prev">{{ prev_link }}</li>
 	        <li class="next">{{ next_link }}</li>
 	      </ul>
-	  </div>
-	   
-	   <h2>Key Themes</h2>
-	   {{ toc }}
+	   </div>	   
 	</div>
+	<div class="span8">		
+           {{ content }}
+        </div>
+	
       </div>
 
       <div class="row-fluid">
