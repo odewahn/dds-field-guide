@@ -1,0 +1,65 @@
+{{ doctype }}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="utf-8" />
+<title>{{ title }}</title>
+   <link href="theme/html/atlas_assets.css" rel="stylesheet" type="text/css" />
+<p>{{ header }}</p>
+   <link href="theme/html/syntax.css" rel="stylesheet" type="text/css" />
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+<p><a href="https://github.com/odewahn/devops-fg2/issues"><img alt="Discuss on GitHub" src="https://s3.amazonaws.com/orm-atlas-media/discuss_right_gray_6d6d6d.png" style="z-index: 999999999; position: absolute; top: 0; right: 0; border: 0;" /></a></p>
+
+<div class="navbar">
+<div class="container">
+<ul class="nav pull-right">
+	<li>{{ prev_link }}</li>
+	<li>{{ next_link }}</li>
+</ul>
+</div>
+</div>
+
+<div class="container" id="main">
+<div class="row">
+
+
+
+<div class="span8">
+
+   {{ content }}
+   <div class="navigation">
+      <ul>
+	        <li class="prev">{{ prev_link }}</li>
+	        <li class="next">{{ next_link }}</li>
+      </ul>
+   </div>
+   
+</div>
+
+<div class="span3 offset1">
+   <h2>Contents:</h2>
+   {{ toc }}
+</div>
+
+</div>
+</div>
+
+<footer>
+<div class="container">
+<div class="row">
+<div class="span5">
+<p>&copy; 2013, O'Reilly Media, Inc.</p>
+
+<p class="small">All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.</p>
+</div>
+
+<div class="span3 offset1">
+<ul>
+	<li>Legal</li>
+	<li><a href="/docs/terms-of-service">Terms of Service</a></li>
+	<li><a href="http://oreilly.com/oreilly/privacy.csp">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</html>
