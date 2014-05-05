@@ -1,7 +1,15 @@
 {
   "branch": "master",
   "files": [
-    "ci-servers.md"
+    "toc.md",
+    "cloud-as-default.md",
+    "ci-servers.md",
+    "codebase.md",
+    "local-dev.md",
+    "manage-environment.md",
+    "monitoring.md",
+    "testing-tools.md",
+    "application_stacks.md"
   ],
   "formats": {
     "pdf": {
