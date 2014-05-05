@@ -24,7 +24,7 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
   * [flask](http://flask.pocoo.org/)
 * Package Management
   * [setup\_tools](https://pypi.python.org/pypi/setuptools)
-  *[pip](https://pypi.python.org/pypi/pip)
+  * [pip](https://pypi.python.org/pypi/pip)
 * Testing Tools Â 
 
 ## node
