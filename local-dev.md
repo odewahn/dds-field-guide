@@ -9,11 +9,11 @@ One of the key breakthroughs of the devops movement is it gives developers a sim
 The following table summarizes tools you will encounter:
 
 * [vagrant](http://www.vagrantup.com/).  "Create and configure lightweight, reproducible, and portable development environments."
-* [virtualbox](https://www.virtualbox.org/). "VirtualBox is a powerful x86 and AMD64/Intel64  [virtualization](https://www.virtualbox.org/wiki/Virtualization) product for enterprise as well as home use."  Free an open source! 
+* [virtualbox](https://www.virtualbox.org/). "VirtualBox is a powerful x86 and AMD64/Intel64  [virtualization](https://www.virtualbox.org/wiki/Virtualization) product for enterprise as well as home use." Free and open source! 
 * [vmware](http://www.vmware.com/). One of the original virtualization solutions; Vagrant has a paid version that targets vmware fusion.
 
 ### Replicating 3rd party APIs locally
 
-The develop "everything on localhost" approach breaks down somewhat when an application makes extensive use of 3rd party APIs.   Clearly, you could not siply install Twitter or Facebook on your local machine.  To get around this, there are a number of tools for mocking up the API results returned by these services.  These include:
+The develop "everything on localhost" approach breaks down somewhat when an application makes extensive use of 3rd party APIs.  Clearly, you could not siply install Twitter or Facebook on your local machine.  To get around this, there are a number of tools for mocking up the API results returned by these services.  These include:
 
 * [canned](https://github.com/sideshowcoder/canned). "Server to respond with fake API responses, by using a directory of files for finding out what to say."
