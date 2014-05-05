@@ -37,7 +37,7 @@ Hosted PaaS services add a layer on top of the raw offerings of hosting provider
 
 ## Internal Services
 
-These are tools that create virtual internal clouds (i.e., on premise). Â While they're technically running in your own internal datacenter, they enable the concept of scalable, Â on-demandÂ resources. Â 
+These are tools that create virtual internal clouds (i.e., on premise). While they're technically running in your own internal datacenter, they enable the concept of scalable, on-demand resources.
 
 * [Open Stack](https://www.openstack.org/).  Open source software for buildingÂ  private and public clouds.
 * [VMWare vCloud Suite](http://www.vmware.com/products/vcloud-suite/).  "VMware vCloudÂ® Suite lets you build and run a vSphere-based private cloud that delivers cloud service provider economics at scale, application provisioning in minutes, and automated operations management."
