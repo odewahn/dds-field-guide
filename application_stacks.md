@@ -5,7 +5,7 @@ No language is an island. Rather, every successful language (Ruby, Python, etc) 
 Why would you care, you ask? Well, even if you don't need to know a language in depth, you still might want to install and use some great open source package, so it helps to have an idea of what is what. Â This is not meant to be an exhaustive list, but just an overview of the biggies in each ecosystem.
 
 ## Ruby
-Â 
+
 * Frameworks 
   * [Rails](http://rubyonrails.org/)
   * [Sinatra](http://www.sinatrarb.com/)
