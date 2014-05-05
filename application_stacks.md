@@ -1,3 +1,5 @@
+<section data-type="appendix">
+	
 # Language stack quick reference
 
 No language is an island. Rather, every successful language (Ruby, Python, etc) comes with an ecosystem of tools and frameworks. The goal of the table below is to map some the key elements in these language ecosystems so that you can quickly cross reference an unfamiliar stack against one you're familiar with.
@@ -48,3 +50,5 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 * Frameworks
 * Package Manager
 * Testing Tools
+
+</section>
