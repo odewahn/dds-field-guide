@@ -88,13 +88,6 @@ div.navigation ul li.next {
   float: right;
 }
 
-.booktitle {
-  background-image: url("bird.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  border-bottom: 2px solid #00adef;
-}
-
 .booktitle img {
   width: 600px;
   height: auto;
