@@ -20,23 +20,20 @@ In addition to these coordination functions, most version control system also of
 
 Here are the key version control systems:
 
-* [git](http://git-scm.com/). "Git is a  [free and open source](http://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+* [git](http://git-scm.com/). "Git is a [free and open source](http://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
 * [mercurial](http://mercurial.selenic.com/). "Mercurial is a free, distributed source control management tool. It efficiently handles projects of any size and offers an easy and intuitive interface."
 
-Hosting services provide a central point where you can manage and store all your code repositories.  In addition to raw code storage, they usually offer features like issue tracking, collaborator management, and other process-oriented services.  
+Hosting services provide a central point where you can manage and store all your code repositories. In addition to raw code storage, they usually offer features like issue tracking, collaborator management, and other process-oriented services.
 
-The following table are hosting services managed by a 3rd party.  The pricing model is typically based on a block of repositories for a monthly fee.
+The following table are hosting services managed by a 3rd party.  The pricing model is typically based on a block of repositories for a monthly fee.
 
 * [GitHub](https://github.com/).  One of the largest and most successful git hosting services.
-* [BitBucket](https://bitbucket.org/).  [Atlassian](https://www.atlassian.com/ "")'s git hosting solution.
+* [BitBucket](https://bitbucket.org/).  [Atlassian](https://www.atlassian.com/)'s git hosting solution.
 * [GitLab.com](https://www.gitlab.com/). A hosting service based on the popular open source project GitLab HQ.
 * [Gitorious](https://gitorious.org/). Similar to GitLab, a hosted version of an open source tool that you could install and maintain yourself.
 
 These are services that you can install and manage in your own environment.
 
-* [GitLab](https://github.com/gitlabhq/gitlabhq).  "Project management and code hosting application. "
+* [GitLab](https://github.com/gitlabhq/gitlabhq).  "Project management and code hosting application."
 * [Gitosis](https://github.com/tv42/gitosis). "software for hosting git repositories"
-* [Gitorious](https://gitorious.org/gitorious). The self-hosted version of gitorious.org.  (It's a rails app.)
-
- 
-
+* [Gitorious](https://gitorious.org/gitorious). The self-hosted version of gitorious.org. (It's a rails app.)
