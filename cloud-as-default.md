@@ -1,4 +1,4 @@
-# The cloud is the default platform.
+# The cloud is the default platform
 
 The accelerating transition to cloud-based platforms, and platforms as a service (PaaS) in general, is one of the main drivers of the devops trend. Organizations have adopted these services for any of a number of reasons:
 

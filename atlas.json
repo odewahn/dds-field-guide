@@ -28,9 +28,9 @@
     },
     "html": {
       "index": false,
-      "toc": false
+      "toc": true
     }
   },
   "theme": "https://github.com/oreillymedia/atlas_trade_theme.git",
-  "title": "devops field guide2"
+  "title": "DevOps Field Guide"
 }

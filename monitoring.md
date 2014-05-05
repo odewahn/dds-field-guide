@@ -1,4 +1,4 @@
-# The monitoring infrastructure is critical.
+# The monitoring infrastructure is critical
 
 The monitoring infrastructure is perhaps the most foreign element in the devops stack. Of all the parts of the software infrastructure, this was perhaps the most opaque. Â A disk would fill up, the monitoring system would alert the systems group, and they would quietly fix it without the developer being any the wiser.
 

@@ -1,4 +1,4 @@
-# The entire application runs locally in development.
+# The entire application runs locally in development
 
 One of the key breakthroughs of the devops movement is it gives developers a simple way to install and run the entire app on their local machine. Being able to run it on their own system encourages creativity and flexibility, and make development much more fun and productive.
 

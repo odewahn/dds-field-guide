@@ -1,4 +1,4 @@
-# Tests done in code, not by a QA department.
+# Tests done in code, not by a QA department
 
 As described in the section on Continuous deployment servers, running automated tests on each deploy or commit is an important way to ensure software quality.
 
