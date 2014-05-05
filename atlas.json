@@ -9,7 +9,8 @@
     "manage-environment.md",
     "monitoring.md",
     "testing-tools.md",
-    "application_stacks.md"
+    "application_stacks.md",
+    "required_reading.md"
   ],
   "formats": {
     "pdf": {
