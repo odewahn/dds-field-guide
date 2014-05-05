@@ -48,6 +48,3 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 * Frameworks
 * Package Manager
 * Testing Tools
-Â 
-
-Â 
