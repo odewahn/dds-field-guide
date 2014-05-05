@@ -13,9 +13,9 @@
   ],
   "formats": {
     "pdf": {
-      "version": false,
+      "version": "web",
       "index": false,
-      "toc": false
+      "toc": true
     },
     "epub": {
       "index": false,
