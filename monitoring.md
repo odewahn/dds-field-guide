@@ -10,9 +10,11 @@ Most of these systems have two components: a client and a server.  The client is
 
 Here are some monitoring tools you might encounter:
 
-* [nagios](http://www.nagios.org/). Nagios is an open source monitoring tool that has been around for a long time. It has hundreds of client plug-ins that can report all manner of system performance metrics.
 * [scout](https://scoutapp.com/).  Scout is a hosted monitoring tool. It's very simple to set up, although it has far fewer plug-ins than Nagios.
 * [newrelic](http://newrelic.com/).  New Relic is an application monitoring tool. Unlike Nagios or Scout, you have to make specific provisions within your application to repor metrics to New Relic. Once you do, however, you can get a wealth of information about the bottlenecks in your application.
 * [pagerduty](http://www.pagerduty.com/).  Pagerduty is an alert system that's designed to allow you to create groups and roles who should be notified for a variety of configurable scenarios.
 * [loader.io](http://loader.io/). "Loader.io is a free load testing service that allows you to stress test your web-apps/apis with thousands of concurrent connections."
 * [hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (i.e., campfire or hipchat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
+* [nagios](http://www.nagios.org/). Nagios is an open source monitoring tool that has been around for a long time. It has hundreds of client plug-ins that can report all manner of system performance metrics.
+* [kale](http://codeascraft.com/2013/06/11/introducing-kale/).  Kale is Etsy's monitoring platform and is "designed to solve the problem of metrics overload"
+* [graphite](http://graphite.wikidot.com/).  Graphite is a tool for "scaleable realtime graphing."  Once you have a data feed, graphite makes it simpler to get nice charts to spot anomalies.

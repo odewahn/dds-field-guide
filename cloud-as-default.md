@@ -1,6 +1,6 @@
 # The cloud is the default platform
 
-The accelerating transition to cloud-based platforms, and platforms as a service (PaaS) in general, is one of the main drivers of the devops trend. Organizations have adopted these services for any of a number of reasons:
+The accelerating transition to cloud-based platforms, and platforms as a service (PaaS) in general, is one of the main drivers of the DevOps trend. Organizations have adopted these services for any of a number of reasons:
 
 * Cost savings
 * Increased speed for launching new projects
@@ -24,16 +24,16 @@ These are tools and services you're likely to encounter here:
 
 There are lots of hosting services. Here are some of the more popular.
 
-* [Amazon Web Services](http://aws.amazon.com/).  AWS is probably the original model for pay as you go infrastructure, and remains one of the leading cloud platforms. While many people think of AWS as either storage (via theÂ  [S3 service](http://aws.amazon.com/s3/)) 
+* [Amazon Web Services](http://aws.amazon.com/).  AWS is probably the original model for pay as you go infrastructure, and remains one of the leading cloud platforms.
 * [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full featured as AWS.
 * [Azure](http://www.windowsazure.com/). Microsoft's cloud offering.
-* [Digital Ocean](https://www.digitalocean.com/). A lower cost alternative to AWS that says it focuses on developers. Seems to be what a lot of developer's use for side projects.
+* [Digital Ocean](https://www.digitalocean.com/). A lower cost alternative to AWS that says it focuses on developers. Seems to be what a lot of developers use for side projects.
 
 ## Hosted PaaS
 
 Hosted PaaS services add a layer on top of the raw offerings of hosting providers.
 
-* [Heroku](https://www.heroku.com/).  A PaaS service built on top of AWS. Unlike AWS, which gives you a raw machine, Heroku allows the devloper to push an application into the service and have a corresponding application stack provision for the machine.
+* [Heroku](https://www.heroku.com/).  A PaaS service built on top of AWS. Unlike AWS, which gives you a raw machine, Heroku allows the developer to push an application into the service and have a corresponding application stack provision for the machine.
 
 ## Internal Services
 
