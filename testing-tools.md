@@ -1,5 +1,7 @@
 # Tests done in code, not by a QA department
 
+<span class="drop fa fa-thumbs-o-up fa-5x pull-left fa-border"></span>
+
 As described in the section on Continuous deployment servers, running automated tests on each deploy or commit is an important way to ensure software quality.
 
 ## Tools
