@@ -2,7 +2,6 @@
 
 <i style="float: left" class="fa fa-code-fork fa-5x">&nbsp;</i>
 
-
 The version control system (VCS) is the heart of the process. At the most basic level, a VCS allows developers to keep track of all the changes made to a set of files and be able to roll back to specific points in time in case something screws up. In some systems, like [Subversion](http://subversion.apache.org/), the code is checked out and then checked back in from a central repository. If there is a conflict between two developers' files (for example, both of them edited the same line of code), then the two version must be merged together. This can be a painful process.
 
 In contrast, distributed version control systems (DVCS), like [git](http://git-scm.com/), are the heart of most new style development processes. Rather than having a central, master copy that makes it difficult and expensive to merge a lot of contributions from developers, a DVCS makes it simple (well, simpler!) to have multiple people all working on the same codebase simultaneously in different _branches_, and that these branches can be easily merged back together in a _master_ branch.
