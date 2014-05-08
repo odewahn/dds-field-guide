@@ -2,7 +2,7 @@
 
 <span class="drop fa fa-cloud fa-5x pull-left fa-border"></span>
 
-The accelerating transition to cloud-based platforms, and platforms as a service (PaaS) in general, is one of the main drivers of the DevOps trend. Organizations have adopted these services for any of a number of reasons:
+The accelerating transition to distributed, cloud-based platforms is one of the main drivers of the DevOps trend. Organizations have adopted these services for any of a number of reasons:
 
 * Cost savings
 * Increased speed for launching new projects
@@ -16,13 +16,10 @@ The various platforms you're likely to encounter in this new world can be divide
 * Hosted PaaS services. These are value added services built on top of raw hosting providers.  For example, a PaaS might allow you to easily spin up a machin based on a particular stack when you deploy you application.
 * Internal cloud and PaaS services.
 
-The following sections cover some of the main offerings in each category.
-
-## Tools
 
 These are tools and services you're likely to encounter here:
 
-### Traditional Cloud Providers
+## Traditional Cloud Providers
 
 There are lots of hosting services. Here are some of the more popular.
 
@@ -44,4 +41,5 @@ These are tools that create virtual internal clouds (i.e., on premise). While th
 * [Open Stack](https://www.openstack.org/).  Open source software for building  private and public clouds.
 * [VMWare vCloud Suite](http://www.vmware.com/products/vcloud-suite/).  "VMware vCloudÂ® Suite lets you build and run a vSphere-based private cloud that delivers cloud service provider economics at scale, application provisioning in minutes, and automated operations management."
 * [Docker](http://www.docker.io/).  Docker is a bit of an odd bird -- I'm not really sure where to put it. But, basically, it provides a lightweight form of virtualization based on [linux containers](http://en.wikipedia.org/wiki/LXC).
+* [Deis](http://deis.io/).  Deis is a self-hosted version of Heroku based on CoreOS.
 
