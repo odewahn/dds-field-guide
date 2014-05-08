@@ -1,6 +1,6 @@
 # CI servers deploy code, not ops
 
-<p><i class="fa fa-camera-retro fa-5x"></i></p>
+<p><i class="fa fa-camera-retro fa-5x">&nbsp;</i></p>
 
 Martin Fowler defines [continuous deployment](http://www.martinfowler.com/articles/continuousIntegration.html) as "a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day." This seminal article defines the key best practices as:
 
