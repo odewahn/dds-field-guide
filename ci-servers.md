@@ -18,7 +18,7 @@ Martin Fowler defines [continuous deployment](http://www.martinfowler.com/articl
 The CI server executes a specific action on a repository when sit receives a commit hook. For example, is a developer makes a commit against repository called foo, the CI server might:
 
 - clone down a local copy of foo
-- execute foo's test suites (see the section on application stacks ÃÂ for more about this)
+- execute foo's test suites (see the section on application stacks for more about this)
 - if the tests fail, the CI server sends an alert to the development team and halts the process
 - if the test suite passes, the CI server might deploy the code to a staging or even production server
 
