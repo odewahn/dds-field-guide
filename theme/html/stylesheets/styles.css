@@ -21,6 +21,12 @@ pre code {
   border-width: 0px; 
 }
 
+.drop {
+	float: left; 
+	padding: 10px; 
+	color: #93464d
+}
+
 .blue {
   background-color: #00adef;
   padding: 3px;
