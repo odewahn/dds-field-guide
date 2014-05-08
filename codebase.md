@@ -1,6 +1,6 @@
 # The codebase is in git
 
-<span class="drop fa fa-code-fork fa-5x"></span>
+<span class="drop fa fa-code-fork fa-5x pull-left fa-border"></span>
 
 The version control system (VCS) is the heart of the process. At the most basic level, a VCS allows developers to keep track of all the changes made to a set of files and be able to roll back to specific points in time in case something screws up. In some systems, like [Subversion](http://subversion.apache.org/), the code is checked out and then checked back in from a central repository. If there is a conflict between two developers' files (for example, both of them edited the same line of code), then the two version must be merged together. This can be a painful process.
 

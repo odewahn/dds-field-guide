@@ -1,5 +1,7 @@
 # The entire application runs locally in development
 
+<span class="drop fa fa-laptop fa-5x pull-left fa-border"></span>
+
 One of the key breakthroughs of the devops movement is it gives developers a simple way to install and run the entire app on their local machine. Being able to run it on their own system encourages creativity and flexibility, and make development much more fun and productive.
 
 [Vagrant](http://www.vagrantup.com/) is the key tool here -- basically, it takes the recipes you created with your environment tool (i.e., your chef or puppet files) and _provisions_ (creates) a virtual machine that runs in a tool like [Virtualbox](https://www.virtualbox.org/) or [VMWare](http://www.vmware.com/). Vagrant automatically maps a virtual drive from the virtual instance back to the host machine, allowing the developer to use his or her favorite editor / IDE, but still run the application in an environment that matches the production environment as closely as possible.
