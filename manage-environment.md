@@ -1,6 +1,6 @@
 # The environment is automated in the code
 
-<span class="drop fa fa-cogs fa-5x pull-left fa-border"></span>
+<span class="drop fa fa-wrench fa-5x pull-left fa-border"></span>
 
 A key idea (maybe _the_ key idea) of devops is that the environment in which your code will run should be modeled as code, and not be some separate thing that is a black box. (And, as we get a bit further down the stack, should be versioned with the code, as well.) It seems pretty basic, but the idea is that you should have a "recipe" that allows you to recreate the environment at any moment. Some of the key parts of managing the environment include:
 
