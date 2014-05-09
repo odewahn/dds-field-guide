@@ -1,8 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
 
-body {
+
+#main {
+	font-size: 1.2em;
+	line-height: 150%;	
+	font-family: 'Open Sans', sans-serif;
+	line-height: 120%;
 }
 
 img {
