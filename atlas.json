@@ -1,7 +1,6 @@
 {
   "branch": "master",
   "files": [
-    "toc.md",
     "cloud-as-default.md",
     "ci-servers.md",
     "codebase.md",
