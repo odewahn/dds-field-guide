@@ -1,6 +1,16 @@
 {
   "branch": "master",
   "files": [
+    "toc.md",
+    "cloud-as-default.md",
+    "ci-servers.md",
+    "codebase.md",
+    "local-dev.md",
+    "manage-environment.md",
+    "monitoring.md",
+    "testing-tools.md",
+    "application_stacks.md",
+    "required_reading.md",
     "contributors.md"
   ],
   "formats": {
