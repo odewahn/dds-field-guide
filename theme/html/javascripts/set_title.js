@@ -1,1 +1,0 @@
-$('head title').text($('h1').first().text());
