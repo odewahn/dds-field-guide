@@ -1,59 +1,51 @@
 {{ doctype }}
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
     <title>{{ title }}</title>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+    <script type="text/javascript" src="theme/html/javascripts/disqus.js"> </script>
+
     <!-- Bootstrap core CSS -->
-   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
-   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"/>
-   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
-
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-   <script type="text/javascript" src="theme/html/javascripts/disqus.js"></script>
-
-   <link rel="stylesheet" href="theme/html/stylesheets/atlas.css" />
-
-
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="theme/html/stylesheets/atlas.css" />
   </head>
 
   <body data-type="book">
 
     <div class="navbar navbar-fixed-top" role="navigation">
       <div class="container">
+        
         <div class="navbar-header">	
-	  <img class="logo" src="theme/html/assets/logo-white.svg"/>
+          <img class="logo" src="theme/html/assets/logo-white.svg"/>
           <a class="title" href="#">{{ title }}</a>
         </div>
 
-	<div id="slideout">
-	    <span class="toc-control fa fa-bars"></span>
-	    <div id="slideout_inner">
-		
-		 <div class="input-group">
-	            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"/>
-	            <div class="input-group-btn">
-	               <button class="btn btn-default search-button" type="submit"><span class="fa fa-search"></span></button>
-	            </div>
-	         </div>   
-	 
-	        {{ toc }}
-	    </div>
-	</div>
-	
-		
-        <div class="container">
-           <div class="col-sm-3 col-md-3 pull-right">
-	      <form class="navbar-form" role="search">
-	      </form>
-           </div>
+        <div id="slideout">
+          <span class="toc-control fa fa-bars"></span>
+          <div id="slideout_inner">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"/>
+              <div class="input-group-btn">
+                 <button class="btn btn-default search-button" type="submit"><span class="fa fa-search"></span></button>
+              </div>
+            </div>   
+            {{ toc }}
+          </div>
         </div>
+	
+        <div class="container">
+          <div class="col-sm-3 col-md-3 pull-right">
+            <form class="navbar-form" role="search"> </form>
+          </div>
+        </div>
+
       </div>
     </div>
-
 
     <div class="container">
       <div class="row">
@@ -64,22 +56,22 @@
     </div>
   
     <div class="container">
-	<div class="row">
-	  <div class="pagination">
-	      <ul>
-	        <li class="prev"><span class="fa fa-chevron-left"></span> {{ prev_link }}</li>
-	        <li class="next">{{ next_link }} <span class="fa fa-chevron-right"></span></li>
-	      </ul>
-	  </div>       
-	</div>
+      <div class="row">
+        <div class="pagination">
+          <ul>
+            <li class="prev"><span class="fa fa-chevron-left"></span> {{ prev_link }}</li>
+            <li class="next">{{ next_link }} <span class="fa fa-chevron-right"></span></li>
+          </ul>
+        </div>       
+      </div>
     </div>
 
     <div class="container">
-       <div class="row">
-          <div class="col-md-12 disqus">
-	     <div id="disqus_thread"></div>
-	   </div>
-       </div>
+      <div class="row">
+        <div class="col-md-12 disqus">
+          <div id="disqus_thread"></div>
+        </div>
+      </div>
     </div>
  
     <div class="footer">
