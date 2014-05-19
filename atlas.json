@@ -1,7 +1,6 @@
 {
   "branch": "master",
   "files": [
-    "toc.html",
     "cloud-as-default.md",
     "ci-servers.md",
     "codebase.md",
@@ -11,7 +10,8 @@
     "testing-tools.md",
     "application_stacks.md",
     "required_reading.md",
-    "contributors.md"
+    "contributors.md",
+    "toc.html"
   ],
   "formats": {
     "pdf": {
