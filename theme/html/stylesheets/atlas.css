@@ -131,6 +131,10 @@ body {
     left: 0;
 }
 
+.themes a {
+	font-size: 1.5em;
+}
+
 .footer {
 	background-color: #ccc;
 	color: white;

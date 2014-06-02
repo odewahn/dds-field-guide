@@ -1,132 +1,154 @@
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>DDS Field Guide</title>
-  <link href="theme/html/stylesheets/styles.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="theme/html/stylesheets/shared.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="theme/html/stylesheets/syntax.css" media="all" rel="stylesheet" type="text/css" />
 
-   <script type="text/javascript" src="theme/html/javascripts/jquery.js"></script>
-   <script type="text/javascript" src="theme/html/javascripts/bootstrap.min.js"></script>
-   <script type="text/javascript" src="theme/html/javascripts/disqus.js"></script>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+    <title>OpenCV Processing Book</title>
+
+    <!-- Bootstrap core CSS -->
+   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"/>
    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
 
-   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+   <script type="text/javascript" src="theme/html/javascripts/disqus.js"> </script>
+
+   <link rel="stylesheet" href="theme/html/stylesheets/atlas.css"/>
 
 
-</head>
-<body>
+  </head>
+
+  <body data-type="book">
 	
-	
- <a href="https://github.com/odewahn/dds-field-guide"><img style="z-index: 999999999; position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Discuss on GitHub"></img></a>
- 
-  <div class="navbar">
+	 <a href="https://github.com/odewahn/dds-field-guide"><img style="z-index: 999999999; position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Discuss on GitHub"></img></a>
+
+    <div class="navbar navbar-fixed-top" role="navigation">	
+      <div class="container">
+        <div class="navbar-header">	
+	  <img class="logo" src="theme/html/assets/logo-white.svg"/>
+          <a class="title" href="/opencv-processing-book/">The Distributed Developer Stack Field Guide</a>
+        </div>
+      </div>
+    </div>
+
+
     <div class="container">
-      <img style="margin:12px; height:25px" src="theme/html/assets/logo-white.svg"/>
-      <ul class="nav pull-left">
-        <li id="dropdown-1"></li>
-      </ul>
-    </div>
-    <div class="subhead">
-    </div>
-  </div>
 
-
-  <div class="container" id="main">
-	
-   <div class="row-fluid">
- 	<div class="span12">
-	<h1>The Distributed Developer Stack Field Guide</h1>	
-   </div>
-    
-   <div class="row-fluid">
- 	<div class="span7">
-	   <p style="font-size: 1.5em; line-height: 1.5em">This project tracks key themes and tools in an emerging trend we're calling the "Distributed Development Stack" (DDS).  The DDS stack covers DevOps, software engineering, programming practice, organizational culture, and a host of other factors. </p>
-	</div>
-	<div class="span5" style="background-color: #eee; border-radius: 10px; padding: 10px">
+      <div class="row" style="padding:50px">
+        <div class="col-md-6">
+           <p style="font-size: 1.5em; line-height: 1.5em; padding: 10px">This project tracks key themes and tools in an emerging trend we're calling the <a href="http://radar.oreilly.com/2014/05/beyond-the-stack.html">Distributed Development Stack</a> (DDS).</p>
+           <p>
+	      <a href="ch01.html" class="btn btn-block btn-lg btn-success">Read the early draft <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+	<div class="col-md-1">&nbsp;</div>
+        <div class="col-md-5" style="background-color: #eee; border-radius: 10px; padding: 10px">
 	   <h3>How to contribute</h3>
 	   <ol>
-		<li>Agree to the <a href="http://contributor-agreements.oreilly.com/">O'Reilly contributor license agreement</a>.</li>
-		<li><a href="https://github.com/odewahn/dds-field-guide">Fork the repo</a>.</li>
-		<li>Send a pull request.</li>
-		<li>Add yourself to the <a href="ch10.html">contributor page</a>.</li>
-	   </ol>
+	      <li>Agree to the <a href="http://contributor-agreements.oreilly.com/">O'Reilly contributor license agreement</a>.</li>
+	      <li><a href="https://github.com/odewahn/dds-field-guide">Fork the repo</a>.</li>
+              <li>Send a pull request.</li>
+              <li>Add yourself to the <a href="ch10.html">contributor page</a>.</li>
+           </ol>
+	</div>
+	
+        </div>
+      </div>
+
+      <div class="container themes">
+	<h2>Some key areas we're exploring...</h2>	
+
+
+      
+      <div class="row" style="padding:10px">
+	<div class="col-md-2">			    
+	   <span class="drop fa fa-cloud fa-5x fa-border pull-right"></span>
+        </div>
+        <div class="col-md-3">
+	   <a href="ch01.html">The cloud is the default platform.</a>
+	</div>
+	<div class="col-md-1">&nbsp;</div>
+	<div class="col-md-2">			    
+	   <span class="drop fa fa-cogs fa-5x fa-border pull-right"></span>
+        </div>
+        <div class="col-md-3">
+	   <a href="ch02.html">CI servers deploy code, not ops.</a>
+	</div>
+      </div>
+
+
+
+    <div class="row" style="padding:10px">
+	<div class="col-md-2">			    
+	   <span class="drop fa fa-code-fork fa-5x fa-border pull-right"></span>
+        </div>
+        <div class="col-md-3">
+	   <a href="ch03.html">The codebase is in git.</a>
+	</div>
+	<div class="col-md-1">&nbsp;</div>
+	<div class="col-md-2">			    
+	   <span class="drop fa fa-laptop fa-5x fa-border pull-right"></span>
+        </div>
+        <div class="col-md-3">
+	   <a href="ch04.html">The application runs locally on development.</a>
 	</div>
    </div>
+	
+	
+	
+	<div class="row" style="padding:10px">
+		<div class="col-md-2">			    
+		   <span class="drop fa fa-wrench fa-5x fa-border pull-right"></span>
+	        </div>
+	        <div class="col-md-3">
+		   <a href="ch05.html">The environment is automated in the code.</a>
+		</div>
+		<div class="col-md-1">&nbsp;</div>
+		<div class="col-md-2">			    
+		   <span class="drop fa fa-stethoscope fa-5x fa-border pull-right"></span>
+	        </div>
+	        <div class="col-md-3">
+		   <a href="ch06.html">The monitoring infrastructure is critical.</a>
+		</div>
+	   
+        </div>	
 
-      <div class="row-fluid">
-	<h2>Key themes we're exploring...</h2>	
+    	<div class="row" style="padding:10px">
+		<div class="col-md-2">			    
+		   <span class="drop fa fa-thumbs-o-up fa-5x fa-border pull-right"></span>
+	        </div>
+	        <div class="col-md-3">
+		   <a href="ch07.html">Tests done in code, not by a QA department.</a>
+		</div>
+		<div class="col-md-7">&nbsp;</div>
+      </div>
+
+
      </div>
 
-     <div class="row-fluid" >
-        <div class="span4">		
-           <span class="drop fa fa-cloud fa-5x pull-left fa-border"></span>
-           <a href="ch01.html">The cloud is the default platform.</a>	    
-        </div>
-        <div class="span4">		
-	   <span class="drop fa fa-cogs fa-5x pull-left fa-border"/></span>
-	   <a href="ch02.html">CI servers deploy code, not ops.</a> 
-        </div>
-        <div class="span4">
-  	   <span class="drop fa fa-code-fork fa-5x pull-left fa-border"/></span>
-            <a href="ch03.html">The codebase is in git.</a>
-	 </div>
-   </div>
+</div>
 
-   <div class="row-fluid" style="padding-top:10px; padding-bottom: 10px">
-        <div class="span4">
-          <span class="drop fa fa-laptop fa-5x pull-left fa-border"/></span>
-          <a href="ch04.html">The application runs locally on development.</a>
-	</div>
-	<div class="span4">		
-	   <span class="drop fa fa-wrench fa-5x pull-left fa-border"/></span>
-	   <a href="ch05.html">The environment is automated in the code.</a>
-        </div>
-	<div class="span4">		
-   	   <span class="drop fa fa-stethoscope fa-5x pull-left fa-border"/></span>
-           <a href="ch06.html">The monitoring infrastructure is critical.</a>
-        </div>
+
+    </div>
+  
     </div>
 
-   <div class="row-fluid">
-	<div class="span3">		
-	   <span class="drop fa fa-thumbs-o-up fa-5x pull-left fa-border"/></span>
-	   <a href="ch07.html">Tests done in code, not by a QA department.</a>
-	</div>
-
-   </div>
-
-      <div class="row-fluid">
-	 <div class="span12">
-            <div id="disqus_thread"></div>
-	 </div>
-      </div>
-
-
-  </div>
-
-  <footer>
     <div class="container">
-      <div class="row-fluid">
-        <div class="span4">
-          <span class="logo"></span>
-          <p>© 2014, O'Reilly Media, Inc.</p>
-          <p class="small">All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.</p>
-        </div>
-        <div class="span4">
-          <ul>
-            <li>Legal</li>
-            <li><a href="/tos">Terms of Service</a></li>
-            <li><a href="http://oreilly.com/oreilly/privacy.csp">Privacy Policy</a></li>
-          </ul>
-        </div>
-        <div class="span4">
-	   <a class="btn btn-medium btn-info" href="https://github.com/odewahn/dds-field-guide/issues" target="_blank">Feedback</a>
-	</div>
-      </div>
+       <div class="row" style="margin-top: 100px; border-top: 1px solid #ccc">
+          <div class="col-md-12 disqus">
+	     <div id="disqus_thread"/>
+	   </div>
+       </div>
     </div>
-  </footer>
+ 
+    <div class="footer">
+      <footer>
+        <p>© O'Reilly Media, 2014</p>
+      </footer>
+    </div>
 
+  </body>
 
-</body>
 </html>
