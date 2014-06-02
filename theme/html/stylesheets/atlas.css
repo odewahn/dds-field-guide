@@ -131,23 +131,34 @@ body {
     left: 0;
 }
 
+.footer {
+	background-color: #ccc;
+	color: white;
+	width: 100%;
+}
+
+.footer a {
+	color: white;
+}
+
+
 nav[data-type="toc"] {
 	padding: 10px;
 	margin-bottom: 50px;
 }
 
+nav[data-type="toc"] li {
+	padding-bottom: 15px;
+}
+
 nav[data-type="toc"] ol {
 	list-style:none;
 	padding-left: 0px;
-	line-height: 1.5em;
+	line-height: 1.2em;
 }
 
 nav[data-type="toc"] li[data-type="part"] {
    font-size: 1.2em;
-}
-
-nav[data-type="toc"] li[data-type="chapter"] {
-   padding-left: 40px;	
 }
 
 nav[data-type="toc"] li[data-type="sect1"] {
