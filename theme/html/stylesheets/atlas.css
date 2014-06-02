@@ -48,6 +48,10 @@ body {
 	height: 34px;
 }
 
+.pagination a {
+	color: white;
+}
+
 
 .pagination {
 	margin-top: 10px;
