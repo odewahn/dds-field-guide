@@ -126,3 +126,26 @@ body {
 #slideout:hover #slideout_inner {
     left: 0;
 }
+
+nav[data-type="toc"] {
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+nav[data-type="toc"] ol {
+	list-style:none;
+	padding-left: 0px;
+	line-height: 1.5em;
+}
+
+nav[data-type="toc"] li[data-type="part"] {
+   font-size: 1.2em;
+}
+
+nav[data-type="toc"] li[data-type="chapter"] {
+   padding-left: 40px;	
+}
+
+nav[data-type="toc"] li[data-type="sect1"] {
+   display: none;	
+}
