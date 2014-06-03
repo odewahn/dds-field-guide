@@ -1,4 +1,4 @@
-# Appendix 
+# Appendix D: Radar Post
 
 [Everything is Distributed](http://radar.oreilly.com/2014/05/everything-is-distributed.html) and [Beyond the stack](http://radar.oreilly.com/2014/05/beyond-the-stack.html) began exploring the "a new toolset has grown up to support the development of massively distributed applications" that we're calling the Distributed Development Stack (DDS).  The DDS is a mix of tools, techniques, and practices that have developed as platforms like AWS and Heroku have become the default place to deploy new applications.  
 
