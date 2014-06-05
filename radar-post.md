@@ -1,6 +1,6 @@
 # Appendix D: Radar Post
 
-[Everything is Distributed](http://radar.oreilly.com/2014/05/everything-is-distributed.html) and [Beyond the stack](http://radar.oreilly.com/2014/05/beyond-the-stack.html) began exploring "a new toolset has grown up to support the development of massively distributed applications" that we're calling the Distributed Development Stack (DDS).  DDS is a mix of tools, techniques, and practices that have developed as platforms like AWS and Heroku have become the default place to deploy many new applications.  
+[Everything is distributed](http://radar.oreilly.com/2014/05/everything-is-distributed.html) and [Beyond the stack](http://radar.oreilly.com/2014/05/beyond-the-stack.html) began exploring "a new toolset has grown up to support the development of massively distributed applications" that we're calling the Distributed Development Stack (DDS).  DDS is a mix of tools, techniques, and practices that have developed as platforms like AWS and Heroku have become the default place to deploy many new applications.  
 
 As Mike observed, the shift from well-tended, internal servers to external, disposable VMs has had profound consequences (many of which are memorably described by Noah Slater in "[Pets vs. Cattle](https://blog.engineyard.com/2014/pets-vs-cattle)").  To help provide a framework for understanding the explosion of trends and tools in the space, we've created the [Field Guide for the Distributed Development Stack](http://odewahn.github.io/dds-field-guide/).  
 
