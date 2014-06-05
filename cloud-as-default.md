@@ -2,7 +2,7 @@
 
 <span class="drop fa fa-cloud fa-5x pull-left fa-border"></span>
 
-The accelerating transition to distributed, cloud-based platforms is one of the main drivers of the DevOps trend. Organizations have adopted these services for any of a number of reasons: cost savings, increased speed for launching new projects, scalability, to name just a few.
+The accelerating transition to distributed, cloud-based platforms is one of the main drivers of the DDS trend. Organizations have adopted these services for any of a number of reasons: cost savings, increased speed for launching new projects, scalability, to name just a few.
 
 But, whatever the reasons for adoption, the default platform for many applications is increasingly assumed to be a transient, virtual, cloud-based platform, rather than a traditional server maintained by an internal IT group. Even in cases where the virtualization/PaaS solution is maintained in an internal cloud, the net effect is much the same.
 

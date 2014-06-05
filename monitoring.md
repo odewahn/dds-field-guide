@@ -2,7 +2,7 @@
 
 <span class="drop fa fa-stethoscope fa-5x pull-left fa-border"></span>
 
-The monitoring infrastructure is perhaps the most foreign element in the devops stack. Of all the parts of the software infrastructure, this was perhaps the most opaque. A disk would fill up, the monitoring system would alert the systems group, and they would quietly fix it without the developer being any the wiser.
+The monitoring infrastructure is perhaps the most foreign element in the DDS stack. Of all the parts of the software infrastructure, this was perhaps the most opaque. A disk would fill up, the monitoring system would alert the systems group, and they would quietly fix it without the developer being any the wiser.
 
 However, as more of the traditional admin functions spread to other parts of the organization, there's increasing need for developers to view the monitoring infrastructure as just another part of the app. In addition to providing the sorts of critical alerts on failures, many monitoring tools are tailored to the application stack and can be used to pinpoint performance bottlenecks. 
 
