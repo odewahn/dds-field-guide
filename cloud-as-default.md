@@ -9,7 +9,7 @@ But, whatever the reasons for adoption, the default platform for many applicatio
 The various platforms you're likely to encounter in this new world can be divided into 3 main groups:
 
 * Traditional cloud providers. These allow you to quickly create storage or computing power as needed.
-* Hosted PaaS services. These are value added services built on top of raw hosting providers.  For example, a PaaS might allow you to easily spin up a machin based on a particular stack when you deploy you application.
+* Hosted PaaS services. These are value added services built on top of raw hosting providers.  For example, a PaaS might allow you to easily spin up a machine based on a particular stack when you deploy you application.
 * Internal cloud and PaaS services.
 
 
@@ -20,6 +20,7 @@ These are tools and services you're likely to encounter here:
 There are lots of hosting services. Here are some of the more popular.
 
 * [Amazon Web Services](http://aws.amazon.com/).  AWS is probably the original model for pay as you go infrastructure, and remains one of the leading cloud platforms.
+* [Google Compute Engine](https://cloud.google.com/products/compute-engine/).  Google's cloud platform, which has become much more compelling now that they have [open sourced their cluster management tools](http://googlecloudplatform.blogspot.com/2014/06/an-update-on-container-support-on-google-cloud-platform.html).
 * [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full featured as AWS.
 * [Azure](http://www.windowsazure.com/). Microsoft's cloud offering.
 * [Digital Ocean](https://www.digitalocean.com/). A lower cost alternative to AWS that says it focuses on developers. Seems to be what a lot of developers use for side projects.

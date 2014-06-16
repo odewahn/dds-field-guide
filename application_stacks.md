@@ -1,6 +1,6 @@
 # Appendix A: Language stack quick reference
 
-<span class="drop fa fa-code fa-5x pull-left fa-border"></span>
+<span class="ico fa fa-code fa-5x pull-left fa-border"></span>
 
 No language is an island. Rather, every successful language (Ruby, Python, etc) comes with an ecosystem of tools and frameworks. The goal of the table below is to map some the key elements in these language ecosystems so that you can quickly cross reference an unfamiliar stack against one you're familiar with.
 

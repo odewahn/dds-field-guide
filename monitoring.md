@@ -13,7 +13,7 @@ Most of these systems have two components: a client and a server.  The client is
 Here are some monitoring tools you might encounter:
 
 * [scout](https://scoutapp.com/).  Scout is a hosted monitoring tool. It's very simple to set up, although it has far fewer plug-ins than Nagios.
-* [newrelic](http://newrelic.com/).  New Relic is an application monitoring tool. Unlike Nagios or Scout, you have to make specific provisions within your application to repor metrics to New Relic. Once you do, however, you can get a wealth of information about the bottlenecks in your application.
+* [newrelic](http://newrelic.com/).  New Relic is an application monitoring tool. Unlike Nagios or Scout, you have to make specific provisions within your application to report metrics to New Relic. Once you do, however, you can get a wealth of information about the bottlenecks in your application.
 * [pagerduty](http://www.pagerduty.com/).  Pagerduty is an alert system that's designed to allow you to create groups and roles who should be notified for a variety of configurable scenarios.
 * [loader.io](http://loader.io/). "Loader.io is a free load testing service that allows you to stress test your web-apps/apis with thousands of concurrent connections."
 * [hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (i.e., campfire or hipchat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
