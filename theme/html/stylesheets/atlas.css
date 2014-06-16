@@ -168,3 +168,9 @@ nav[data-type="toc"] li[data-type="part"] {
 nav[data-type="toc"] li[data-type="sect1"] {
    display: none;	
 }
+
+.ico {
+  vertical-align: top;
+  float: left;
+  margin-right: 20px;
+}
