@@ -36,7 +36,4 @@ Hosted PaaS services add a layer on top of the raw offerings of hosting provider
 These are tools that create virtual internal clouds (i.e., on premise). While they're technically running in your own internal datacenter, they enable the concept of scalable, on-demand resources.
 
 * [Open Stack](https://www.openstack.org/).  Open source software for building  private and public clouds.
-* [VMWare vCloud Suite](http://www.vmware.com/products/vcloud-suite/).  "VMware vCloudÂ® Suite lets you build and run a vSphere-based private cloud that delivers cloud service provider economics at scale, application provisioning in minutes, and automated operations management."
-* [Docker](http://www.docker.io/).  Docker is a bit of an odd bird -- I'm not really sure where to put it. But, basically, it provides a lightweight form of virtualization based on [linux containers](http://en.wikipedia.org/wiki/LXC).
-* [Deis](http://deis.io/).  Deis is a self-hosted version of Heroku based on CoreOS.
-
+* [VMWare vCloud Suite](http://www.vmware.com/products/vcloud-suite/).  A tool for running and managing VMWare images in your own data center.

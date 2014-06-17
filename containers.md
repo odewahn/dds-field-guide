@@ -9,7 +9,7 @@ Containerization is the idea that an application and all its dependencies can be
    * Docker as the way you run apps
    * [etcd](https://github.com/coreos/etcd), which is a distributed key value database; it's sort of the "registry" you can use to share data between instances.  It's bundled with the OS so that you can always count on it being there
    * [systemd](http://coreos.com/using-coreos/systemd/), a distributed job system for scheduling and process management.  I don't really quite understand this quite yet, but plan to dive in soon.
-  * [fleet](http://coreos.com/docs/launching-containers/launching/launching-containers-fleet/).  Fleet is a tool for managing processes on a coreos cluster.
+   * [fleet](http://coreos.com/docs/launching-containers/launching/launching-containers-fleet/).  Fleet is a tool for managing processes on a coreos cluster.
 * [Deis](http://deis.io/).  Deis is a self-hosted PaaS platform based on Docker and CoreOS.  Basically, it allows you to create your own Heroku-like service based on [buildpacks](https://devcenter.heroku.com/articles/buildpacks) or "raw" Docker containers.
 * [Flynn.io](https://flynn.io/).  Flynn, like Deis, provides a self-hosted PaaS.  
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes).  Kubernetes is an open source version of Google's internal cluster management toolchain.  You can use Kubernetes to run your own Docker containers on [Google Compute Engine](https://cloud.google.com/products/compute-engine/), Google's cloud platform.
