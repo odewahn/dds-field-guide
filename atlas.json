@@ -36,6 +36,6 @@
       "toc": true
     }
   },
-  "theme": "https://github.com/oreillymedia/atlas_trade_theme.git",
+  "theme": "oreillymedia/atlas_tech1c_theme",
   "title": "Distributed Developer Stack (DDS) Field Guide"
 }
