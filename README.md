@@ -23,7 +23,7 @@ In addition to being a useful framework, the Guide is also meant to be a living 
 
 To contribute to the DDS field guide:
 
-* For this repo
+* Fork this repo
 * Agree to the [O'Reilly Contributor License Agreement](http://contributor-agreements.oreilly.com/)
 * Add you tool / contribution
 * Submit a pull request
