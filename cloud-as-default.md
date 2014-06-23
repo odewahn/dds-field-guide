@@ -21,9 +21,9 @@ There are lots of hosting services. Here are some of the more popular.
 
 * [Amazon Web Services](http://aws.amazon.com/).  AWS is probably the original model for pay as you go infrastructure, and remains one of the leading cloud platforms.
 * [Google Compute Engine](https://cloud.google.com/products/compute-engine/).  Google's cloud platform, which has become much more compelling now that they have [open sourced their cluster management tools](http://googlecloudplatform.blogspot.com/2014/06/an-update-on-container-support-on-google-cloud-platform.html).
-* [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full featured as AWS.
 * [Azure](http://www.windowsazure.com/). Microsoft's cloud offering.
-* [Digital Ocean](https://www.digitalocean.com/). A lower cost alternative to AWS that says it focuses on developers. Seems to be what a lot of developers use for side projects.
+* [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full featured as AWS.
+
 
 
 ## Hosted PaaS
@@ -32,6 +32,8 @@ Hosted PaaS services add a layer on top of the raw offerings of hosting provider
 
 * [Heroku](https://www.heroku.com/).  A PaaS service built on top of AWS. Unlike AWS, which gives you a raw machine, Heroku allows the developer to push an application into the service and have a corresponding application stack provision for the machine.
 * [OpenShift](https://www.openshift.com/) is a cloud-hosted PaaS solution developer by RedHat, the company behind [RHEL](http://www.redhat.com/products/enterprise-linux/) Linux distribution.
+* [Digital Ocean](https://www.digitalocean.com/). A lower cost alternative to AWS that says it focuses on developers. Seems to be what a lot of developers use for side projects.
+* [Linode](https://www.linode.com/) is a hosting service that offers SSD for really fast access.
 
 ## Internal Services
 
