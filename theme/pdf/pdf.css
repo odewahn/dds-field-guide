@@ -12,5 +12,6 @@ section[data-type="titlepage"] .cover {
   line-height: .5;
   font-weight: bold;
   border-radius: .5em .5em 0;
+  page-break-after: always;
 }
 
