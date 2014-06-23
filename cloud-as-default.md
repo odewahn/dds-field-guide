@@ -25,11 +25,13 @@ There are lots of hosting services. Here are some of the more popular.
 * [Azure](http://www.windowsazure.com/). Microsoft's cloud offering.
 * [Digital Ocean](https://www.digitalocean.com/). A lower cost alternative to AWS that says it focuses on developers. Seems to be what a lot of developers use for side projects.
 
+
 ## Hosted PaaS
 
 Hosted PaaS services add a layer on top of the raw offerings of hosting providers.
 
 * [Heroku](https://www.heroku.com/).  A PaaS service built on top of AWS. Unlike AWS, which gives you a raw machine, Heroku allows the developer to push an application into the service and have a corresponding application stack provision for the machine.
+* [OpenShift](https://www.openshift.com/) is a cloud-hosted PaaS solution developer by RedHat, the company behind [RHEL](http://www.redhat.com/products/enterprise-linux/) Linux distribution.
 
 ## Internal Services
 
@@ -37,3 +39,11 @@ These are tools that create virtual internal clouds (i.e., on premise). While th
 
 * [Open Stack](https://www.openstack.org/).  Open source software for building  private and public clouds.
 * [VMWare vCloud Suite](http://www.vmware.com/products/vcloud-suite/).  A tool for running and managing VMWare images in your own data center.
+*  [Mesos](http://mesos.apache.org/) / [Marathon](https://github.com/mesosphere/marathon) / [Chronos](https://github.com/airbnb/chronos) are a trio of technologies for managing and scheduling processes across a cluster of machines.  Apache Mesos provides the core clustering technology for the stack. Marathon, from [Mesosphere](http://mesosphere.io/), is a distributed tool for starting, stopping, and managing individual jobs on a Mesos cluster. (So, it's like a distributed version of [init](http://en.wikipedia.org/wiki/Init) or [upstart](http://upstart.ubuntu.com/)).  Chronos, developed by airbnb's engineering team, is a distributed, fault-tolerant replacement for cron (the classic UNIX job scheduling tool) for scheduling when jobs will start.
+* [OpenShift Origin](https://openshift.github.io/) is an open source version of RedHat's Open Shift platform.
+
+## For More Information
+
+You can find more important background at:
+
+* [The Twelve Factor App](http://12factor.net/)

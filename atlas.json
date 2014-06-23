@@ -1,7 +1,9 @@
 {
   "branch": "master",
   "files": [
+    "cover.html",
     "toc.md",
+    "README.md",
     "cloud-as-default.md",
     "ci-servers.md",
     "codebase.md",
@@ -11,9 +13,7 @@
     "testing-tools.md",
     "containers.md",
     "application_stacks.md",
-    "required_reading.md",
     "contributors.md",
-    "radar-post.md",
     "survey-form.html"
   ],
   "formats": {

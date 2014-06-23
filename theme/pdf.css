@@ -1,0 +1,13 @@
+
+.cover {
+	background-color: red;
+}
+
+.cover h1 {
+	font-size: 200%;
+	font-color: white;
+}
+
+.cover p {
+	font-color: white;
+}

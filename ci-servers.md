@@ -26,8 +26,11 @@ The CI server executes a specific action on a repository when sit receives a com
 
 Here are a few of the CI servers you might encounter:
 
-* [Jenkins](http://jenkins-ci.org/).  Jenkins is one of the leading open source CI servers. It has a host of useful plugins for build tasks.
-* [Travis](https://travis-ci.org/). Travis is a hosted CI solution. It works really nicely with Rails.
-* [Hudson](http://hudson-ci.org/). Hudson is a CI server from Oracle; Jenkins is a fork of this original code.
+* [Hudson](http://hudson-ci.org/). A CI server from Oracle written in Java.
+* [Jenkins](http://jenkins-ci.org/).  Jenkins, a fork of Hudson, is one of a leading open source CI servers. It has a host of useful plugins for tasks like build tasks, error reporting, repository management, and others..
+* [BuildBot](http://buildbot.net/).  Buildbot is an open source CI server based on Python.
+* [Travis](https://travis-ci.org/). Travis is a hosted CI solution that is used primarily by the Ruby community, particularly Rails.
 * [hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (i.e., campfire or hipchat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
+
+
 

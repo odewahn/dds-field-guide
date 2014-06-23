@@ -24,6 +24,7 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 * Frameworks
   * [django](https://www.djangoproject.com/)
   * [flask](http://flask.pocoo.org/)
+  * [twisted](https://twistedmatrix.com/trac/)
 * Package Management
   * [setup\_tools](https://pypi.python.org/pypi/setuptools)
   * [pip](https://pypi.python.org/pypi/pip)
@@ -42,6 +43,7 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 ## Java
 
 * Frameworks
+  * [Play](http://www.playframework.com/)
 * Package Manager
 * Testing Tools
 
