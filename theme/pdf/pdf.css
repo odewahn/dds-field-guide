@@ -1,14 +1,14 @@
 
-.cover {
+section[data-type="titlepage"].cover {
   position: absolute;
   right: 100%;
   bottom: .08em;
   padding: .5em .1in 0 .4em;
   margin-right: .2in;
-  background: cmyk(0%, 100%, 0%, 10%);
+  background: red;
   text-align: right;
   color: white;
-  font-size: 105pt;
+  font-size: 72pt;
   line-height: .5;
   font-weight: bold;
   border-radius: .5em .5em 0;
