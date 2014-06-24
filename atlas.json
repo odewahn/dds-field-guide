@@ -36,6 +36,6 @@
       "toc": true
     }
   },
-  "theme": "oreillymedia/clean_theme",
+  "theme": "odewahn/dds_theme",
   "title": "Distributed Development Stack (DDS) Field Guide"
 }
