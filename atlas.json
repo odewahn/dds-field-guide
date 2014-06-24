@@ -37,5 +37,6 @@
     }
   },
   "theme": "odewahn/dds_theme",
-  "title": "Distributed Development Stack (DDS) Field Guide"
+  "title": "Distributed Development Stack (DDS) Field Guide",
+  "github_url": "https://github.com/odewahn/dds-field-guide"
 }
