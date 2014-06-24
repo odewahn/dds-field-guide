@@ -24,8 +24,6 @@ There are lots of hosting services. Here are some of the more popular.
 * [Azure](http://www.windowsazure.com/). Microsoft's cloud offering.
 * [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full featured as AWS.
 
-
-
 ## Hosted PaaS
 
 Hosted PaaS services add a layer on top of the raw offerings of hosting providers.
