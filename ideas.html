@@ -1,0 +1,22 @@
+<html ng-app="splashPage" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"> </script>
+   <script type="text/javascript" src="app.js"></script>
+
+</head>
+
+<body ng-controller="SplashController as splash">
+	
+	{{ splash.hi }}
+
+            <div class="row" ng-repeat="theme in splash.splashdata.themes">
+	       {{ theme.description }}
+	    </div>
+
+
+
+</body>
+
+</html>
