@@ -4,7 +4,7 @@
    app.controller('SplashController', ['$http', function($http) {
 	  var contents = this;
 	  contents.splashdata = {};
-	  $http.get("index.json").success(function(data) {
+	  $http.get("app/index.json").success(function(data) {
 		contents.splashdata = data;
 	  });
    }]);	
