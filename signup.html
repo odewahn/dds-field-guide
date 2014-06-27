@@ -1,6 +1,4 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html ng-app="splashPage" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -13,13 +11,17 @@
    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"/>
    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
 
+
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"> </script>
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"> </script>
+   <script type="text/javascript" src="app.js"></script>
+
    <link rel="stylesheet" type="text/css" href="theme/html/html.css"/>
 
 
   </head>
 
-  <body data-type="book">
+  <body data-type="book" ng-controller="SplashController as splash">
 	
     <img src="https://s3.amazonaws.com/orm-atlas-media/fork-on-github.png" class="fork-on-github"/>
     <header>
@@ -98,79 +100,28 @@
       </div>
 
       <div class="container themes">
-	<h2>Some key ideas we're exploring...</h2>	
-
-
-      
-
-
-      
-      <div class="row" style="padding:10px">
-	<div class="col-md-5 clearfix">			    
-	   <span class="ico fa fa-cloud fa-2x fa-border"></span>
-	   <a href="ch02.html">The cloud is the default platform.</a>
-	</div>
-	<div class="col-md-2">&nbsp;</div>
-	<div class="col-md-5">			    
-	   <span class="ico fa fa-cogs fa-2x fa-border"></span>
-	   <a href="ch03.html">CI servers deploy code, not ops.</a>
-	</div>
+         <h2>Some key ideas we're exploring...</h2>
+	   <ul>            
+              <li ng-repeat="theme in splash.splashdata.themes">
+	          <a href="{{ theme.link}}">{{ theme.description }}</a>
+	      </li>
+	   </ul>
       </div>
 
 
+      <div class="container themes">
+         <h2>People are saying...</h2>
+	   <div ng-repeat="quote in splash.splashdata.quotes">
+	      <img ng-src="{{quote.headshot}}" class="author-profile"/>
+	      <blockquote class="author-profile">
+                {{ quote.text }}
+                <cite class="clearfix">— {{quote.name}}</cite>
+              </blockquote>
 
-    <div class="row" style="padding:10px">
-	<div class="col-md-5 clearfix">			    
-	   <span class="ico fa fa-github fa-5x fa-border"></span>
-	   <a href="ch04.html">The codebase is in git.</a>
-	</div>
-	<div class="col-md-2">&nbsp;</div>
-	<div class="col-md-5">			    
-	   <span class="ico fa fa-laptop fa-5x fa-border"></span>
-	   <a href="ch05.html">The application runs locally on development.</a>
-	</div>
-   </div>
-	
-	
-	
-	<div class="row" style="padding:10px">
-		<div class="col-md-5 clearfix">			    
-		   <span class="ico fa fa-wrench fa-5x fa-border"></span>
-		   <a href="ch06.html">The environment is automated in the code.</a>
-		</div>
-		<div class="col-md-2">&nbsp;</div>
-		<div class="col-md-5">			    
-		   <span class="ico fa fa-stethoscope fa-5x fa-border"></span>
-		   <a href="ch07.html">The monitoring infrastructure is critical.</a>
-		</div>
-	   
-        </div>	
-
-    	<div class="row" style="padding:10px">
-		<div class="col-md-5 clearfix">			    
-		   <span class="ico fa fa-thumbs-o-up fa-5x fa-border"></span>
-		   <a href="ch08.html">Tests done in code, not by a QA department.</a>
-	        </div>
-		<div class="col-md-2">&nbsp;</div>
-		<div class="col-md-5">			    
-		   <span class="ico fa fa-th-large fa-5x fa-border"></span>
-		   <a href="ch09.html">Containers are the default deployment target.</a>
-	        </div>		
-      </div>
-
-    	<div class="row" style="padding:10px">
-		<div class="col-md-5 clearfix">			    
-		   <span class="ico fa fa-comments fa-5x fa-border"></span>
-		   <a href="ch10.html">Realtime chat and chatbots.</a>
-	        </div>
-		<div class="col-md-2">&nbsp;</div>
-		<div class="col-md-5">			    
-		   &nbsp;
-	        </div>		
+           </div>
       </div>
 
 
-     </div>
 
 </div>
 

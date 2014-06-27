@@ -15,3 +15,17 @@
 	line-height: 1.5em; 
 	padding: 10px
 }
+
+/* Author profiles
+---------------------------------------------------- */
+
+.author-profile img {
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.author-profile p {
+  color: #918D8D;
+  font-size: 14px;
+  line-height: 20px;
+}
