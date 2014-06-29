@@ -58,25 +58,12 @@
       </div>
 
       <div class="container themes">
-         <h2>Some key ideas we're exploring...</h2>
-	   <ul>            
-              <li ng-repeat="theme in splash.splashdata.themes">
-	          <a href="{{ theme.link}}">{{ theme.description }}</a>
-	      </li>
-	   </ul>
+         <themes></themes>
       </div>
 
 
-      <div class="container themes">
-         <h2>People are saying...</h2>
-	   <div ng-repeat="quote in splash.splashdata.quotes">
-	      <img ng-src="{{quote.headshot}}" class="author-profile"/>
-	      <blockquote class="author-profile">
-                {{ quote.text }}
-                <cite class="clearfix">— {{quote.name}}</cite>
-              </blockquote>
-
-           </div>
+      <div class="container quotes">
+         <quotes></quotes>
       </div>
 
 
