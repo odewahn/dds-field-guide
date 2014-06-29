@@ -2,14 +2,13 @@
 		
    var app = angular.module('splashPage', []);
 
-   directives = ["mailchimp", "themes", "quotes"];
-   
    app.directive('mailchimp', function() {
       return {
 	     restrict: 'E',
 		 templateUrl: 'app/mailchimp.html'
 	  };
    });
+   
 
    app.directive('themes', function() {
       return {
