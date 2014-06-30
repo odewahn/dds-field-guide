@@ -1,5 +1,6 @@
 {
-   "project-name": "dds-field-guide",
+   "project_name": "dds-field-guide",
+   "source": "landing-page",
    "themes": [
       { 
          "icon": "fa-cloud", 

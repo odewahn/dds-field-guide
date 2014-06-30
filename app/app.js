@@ -48,23 +48,21 @@
 			 mailchimp_u = "ae44d1d104bea4a0b3a65c5e5";
 			 mailchimp_id = "6210a8610e";
 			
-			 url = 'http://' + mailchimp_username + '.' + mailchimp_dc + '.list-manage.com/subscribe/post-json?&c=?';
+			 url = 'http://' + mailchimp_username + '.' + mailchimp_dc + '.list-manage.com/subscribe/post-json';
 			 params = {
 	            'EMAIL': contact.email,
 	            'NAME': contact.name,
 	            'TITLE': contact.title,
-	            'ORG': contact.org,
+	            'ORG': contact.organization,
 	            'COMMENTS': contact.comments,
-	            'PROJECT': data.project,
-	            'LEAD_SOURCE': data.lead_source,
+	            'PROJECT': data.project_name,
+	            'SOURCE': data.source,
 	            'c': 'JSON_CALLBACK',
 	            'u': mailchimp_u,
 	            'id': mailchimp_id
 	         };
-	
 
-
-			$.ajax({
+			 $.ajax({
 			    url: url,
 			    data: params,
 			    type: 'POST',
@@ -76,14 +74,8 @@
 		                xhrObj.setRequestHeader("Content-Type","application/json");
 		                xhrObj.setRequestHeader("Accept","application/json");
 		        }
-			});
+			 });
 	
-	        // from http://www.bennadel.com/blog/2615-posting-form-data-with-http-in-angularjs.htm
-/*	
-	         var request = $http.jsonp(url, params).success(function(res) {
-		        console.log(res);
-	         });
-*/
 	
 	         // Now I need to figure out how to post this
 	         console.log("Post to: " + url)	
