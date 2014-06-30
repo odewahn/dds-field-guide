@@ -1,4 +1,5 @@
 {
+   "project-name": "dds-field-guide",
    "themes": [
       { 
          "icon": "fa-cloud", 
