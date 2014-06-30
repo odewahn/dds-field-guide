@@ -1,6 +1,5 @@
 <h2>Some key ideas we're exploring...</h2>
-  <ul>            
-     <li ng-repeat="theme in splash.splashdata.themes">
-         <a href="{{ theme.link}}">{{ theme.description }}</a>
-     </li>
-  </ul>
+<div class="col-md-12 clearfix theme" ng-repeat="theme in splash.splashdata.themes">			    
+   <span class="ico fa {{theme.icon}} fa-3x fa-border"></span>
+   <a href="{{ theme.link}}">{{theme.description}}</a>
+</div>	

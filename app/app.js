@@ -61,7 +61,18 @@
 	            'u': mailchimp_u,
 	            'id': mailchimp_id
 	         };
+	
+			 $.ajax({
+			    url: url,
+			    data: params,
+			    type: 'POST',
+			    dataType: 'json',
+			    success: function(res) { console.log(res); },
+			    error: function(res) { console.log(res); },
+			 });
 
+
+/*
 			 $.ajax({
 			    url: url,
 			    data: params,
@@ -75,11 +86,7 @@
 		                xhrObj.setRequestHeader("Accept","application/json");
 		        }
 			 });
-	
-	
-	         // Now I need to figure out how to post this
-	         console.log("Post to: " + url)	
-			 console.log(params);
+*/	
 
 		  });	     
       };

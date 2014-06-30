@@ -1,8 +1,15 @@
 <h2>People are saying...</h2>
-<div ng-repeat="quote in splash.splashdata.quotes">
-     <img ng-src="{{quote.headshot}}" class="author-profile"/>
-     <blockquote class="author-profile">
-       {{ quote.text }}
-       <cite class="clearfix">— {{quote.name}}</cite>
-     </blockquote>
- </div>
+<div class="author-profile" ng-repeat="quote in splash.splashdata.quotes">
+
+     <div class="col-md-4">
+        <img ng-src="{{quote.headshot}}" class="author-img"/>
+     </div>
+     
+     <div class="col-md-8">
+	<blockquote>
+           {{ quote.text }}
+           <cite class="clearfix">— {{quote.name}}</cite>
+        </blockquote>
+     </div>
+
+</div>

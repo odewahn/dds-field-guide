@@ -16,16 +16,33 @@
 	padding: 10px
 }
 
+
+/* Author profiles
+---------------------------------------------------- */
+.theme {
+	padding: 10px;
+}
+
+
 /* Author profiles
 ---------------------------------------------------- */
 
-.author-profile img {
+.author-img {
   border-radius: 12px;
   margin-bottom: 10px;
+  width: 140px;
+  float: left;
+  margin-right: 20px;
 }
 
-.author-profile p {
+blockquote {
   color: #918D8D;
   font-size: 14px;
   line-height: 20px;
 }
+
+blockquote cite {
+	display: block;
+	text-align: right;
+}
+
