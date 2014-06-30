@@ -1,6 +1,8 @@
 {
    "project_name": "dds-field-guide",
    "source": "landing-page",
+   "title": "Distributed Development Stack (DDS) Field Guide",
+   "positioning": "The definitive source for mainstream technology practitioners to discover and understand the tools and concepts prominent in the shift to the distributed development stack (DDS).",
    "themes": [
       { 
          "icon": "fa-cloud", 
