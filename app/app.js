@@ -2,6 +2,13 @@
 		
    var app = angular.module('splashPage', []);
 
+   app.directive('positioning', function() {
+      return {
+	     restrict: 'E',
+		 templateUrl: 'app/positioning.html'
+	  };
+   });
+
    app.directive('mailchimp', function() {
       return {
 	     restrict: 'E',
