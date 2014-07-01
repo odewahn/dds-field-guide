@@ -5,14 +5,14 @@
    app.directive('positioning', function() {
       return {
 	     restrict: 'E',
-		 templateUrl: 'app/positioning.html'
+		 templateUrl: 'theme/html/app/positioning.html'
 	  };
    });
 
    app.directive('mailchimp', function() {
       return {
 	     restrict: 'E',
-		 templateUrl: 'app/mailchimp.html'
+		 templateUrl: 'theme/html/app/mailchimp.html'
 	  };
    });
    
@@ -20,14 +20,14 @@
    app.directive('themes', function() {
       return {
 	     restrict: 'E',
-		 templateUrl: 'app/themes.html'
+		 templateUrl: 'theme/html/app/themes.html'
 	  };
    });
 
    app.directive('quotes', function() {
       return {
 	     restrict: 'E',
-		 templateUrl: 'app/quotes.html'
+		 templateUrl: 'theme/html/app/quotes.html'
 	  };
    });
 
@@ -35,7 +35,7 @@
    app.controller('SplashController', ['$http',function($http) {
 	  var contents = this;
 	  contents.splashdata = {};
-	  $http.get("app/index.js").success(function(data) {
+	  $http.get("index.json").success(function(data) {
 		contents.splashdata = data;
 	  });
    }]);
@@ -44,8 +44,8 @@
       this.contact = {};
 
       this.submitContact = function(contact){
-	      //Grab the data again -- fucking javascript scoping
-		  $http.get("app/index.js").success(function(data) {
+	      //Grab the data again -- damn javascript scoping
+		  $http.get("index.json").success(function(data) {
 			
 			 // set up mailchimp per https://github.com/keithio/angular-mailchimp/blob/master/angular-mailchimp.js#L24-31
 			 // these data are found in mailchimp post action
