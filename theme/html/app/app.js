@@ -73,17 +73,6 @@
 			    url: url,
 			    data: params,
 			    type: 'POST',
-			    dataType: 'json',
-			    success: function(res) { console.log(res); },
-			    error: function(res) { console.log(res); },
-			 });
-
-
-/*
-			 $.ajax({
-			    url: url,
-			    data: params,
-			    type: 'POST',
 			    crossDomain: true,
 			    dataType: 'jsonp',
 			    success: function(res) { console.log(res); },
@@ -93,7 +82,6 @@
 		                xhrObj.setRequestHeader("Accept","application/json");
 		        }
 			 });
-*/	
 
 		  });	     
       };

@@ -2,6 +2,7 @@
    "project_name": "dds-field-guide",
    "source": "landing-page",
    "title": "Distributed Development Stack (DDS) Field Guide",
+   "github_url": "https://github.com/odewahn/dds-field-guide",
    "positioning": "The definitive source for mainstream technology practitioners to discover and understand the tools and concepts prominent in the shift to the distributed development stack (DDS).",
    "themes": [
       { 
@@ -53,8 +54,18 @@
    "quotes": [
       {
          "name": "Paco Nathan",
-         "text": "Consequat swag chillwave, ea polaroid try-hard reprehenderit  cupidatat. Carles salvia pop-up, deserunt  church-key bicycle rights Odd Future. Sustainable food truck XOXO, pug PBR deserunt  synth fanny pack aliquip Tonx brunch nulla  voluptate!",
+         "text": "Consequat swag chillwave, ea polaroid try-hard reprehenderit  cupidatat. ",
          "headshot": "images/PacoNathan.jpg"
+      },
+      {
+         "name": "Ilya Grigorik",
+         "text": "Carles salvia pop-up, deserunt  church-key bicycle rights Odd Future.",
+         "headshot": "http://sites.oreilly.com/oreillyatlas/atlas-case-studies/images/ilya-grigorik.jpg"
+      },
+      {
+         "name": "Dan Fauxsmith",
+         "text": "Sustainable food truck XOXO, pug PBR deserunt  synth fanny pack aliquip Tonx brunch nulla  voluptate!",
+         "headshot": "http://sites.oreilly.com/oreillyatlas/atlas-case-studies/images/fauxsmith-headshot.png"
       }
    ]
 }

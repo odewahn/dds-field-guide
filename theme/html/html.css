@@ -16,6 +16,23 @@
 	padding: 10px
 }
 
+/* header
+---------------------------------------------------- */
+header {
+   position: relative;
+   border-bottom: 1px solid #E0E0E0;
+   padding: 20px;
+}
+
+/* Footer
+---------------------------------------------------- */
+footer {
+   position: relative;
+   border-top: 1px solid #E0E0E0;
+   padding: 20px;
+}
+
+
 
 /* Author profiles
 ---------------------------------------------------- */
