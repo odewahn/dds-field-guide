@@ -6,13 +6,13 @@ As Mike Loukides observed, the shift from well-tended, internal servers to exter
 
 The Guide is organized into buckets based on a general observation, such as:
 
-* [The cloud is the default platform](http://odewahn.github.io/dds-field-guide/ch01.html)
-* [CI servers deploy code, not ops](http://odewahn.github.io/dds-field-guide/ch02.html)
-* [The codebase is in git](http://odewahn.github.io/dds-field-guide/ch03.html)
-* [The entire application runs locally in development](http://odewahn.github.io/dds-field-guide/ch04.html)
-* [The environment is automated in the code](http://odewahn.github.io/dds-field-guide/ch05.html)
-* [The monitoring infrastructure is critical](http://odewahn.github.io/dds-field-guide/ch06.html)
-* [Tests done in code, not by a QA department](http://odewahn.github.io/dds-field-guide/ch07.html)
+* [The cloud is the default platform](http://sites.oreilly.com/odewahn/dds-field-guide/ch01.html)
+* [CI servers deploy code, not ops](http://sites.oreilly.com/odewahn/dds-field-guide/ch02.html)
+* [The codebase is in git](http://sites.oreilly.com/odewahn/dds-field-guide/ch03.html)
+* [The entire application runs locally in development](http://sites.oreilly.com/odewahn/dds-field-guide/ch04.html)
+* [The environment is automated in the code](http://sites.oreilly.com/odewahn/dds-field-guide/ch05.html)
+* [The monitoring infrastructure is critical](http://sites.oreilly.com/odewahn/dds-field-guide/ch06.html)
+* [Tests done in code, not by a QA department](http://sites.oreilly.com/odewahn/dds-field-guide/ch07.html)
 
 Each bucket then lists a set of associated tools.  For example, in the "The environment is automated in the code" you'll find a tools like [chef](http://www.getchef.com/chef/), [puppet](http://puppetlabs.com/), and [ansible](http://www.ansible.com/home).  While it's certainly true that tools are only a small part of the overall DDS story, it's also true that they are the main way most people will implement these concepts into everyday practice.
 
