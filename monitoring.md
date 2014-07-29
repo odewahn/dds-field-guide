@@ -4,7 +4,7 @@
 
 The monitoring infrastructure is perhaps the most foreign element in the DDS stack. Of all the parts of the software infrastructure, this was perhaps the most opaque. A disk would fill up, the monitoring system would alert the systems group, and they would quietly fix it without the developer being any the wiser.
 
-However, as more of the traditional admin functions spread to other parts of the organization, there's increasing need for developers to view the monitoring infrastructure as just another part of the app. In addition to providing the sorts of critical alerts on failures, many monitoring tools are tailored to the application stack and can be used to pinpoint performance bottlenecks. 
+However, as more of the traditional admin functions spread to other parts of the organization, there's increasing need for developers to view the monitoring infrastructure as just another part of the app. In addition to providing the sorts of critical alerts on failures, many monitoring tools are tailored to the application stack and can be used to pinpoint performance bottlenecks.
 
 Most of these systems have two components: a client and a server.  The client is an agent that runs on the server you want to monitor; it is typically installed on the machine by a chef or puppet recipe (or Ansible or Salt or whatever tool you are using).  Whether it's a daemon or a cron job, the client periodically reports back key metrics to the central server.  The server provides the reporting interface, notification systems, and other functions that are required to smoothly maintain a large number of systems.
 
@@ -21,4 +21,7 @@ Here are some monitoring tools you might encounter:
 * [kale](http://codeascraft.com/2013/06/11/introducing-kale/).  Kale is Etsy's monitoring platform and is "designed to solve the problem of metrics overload"
 * [graphite](http://graphite.wikidot.com/).  Graphite is a tool for "scaleable realtime graphing."  Once you have a data feed, graphite makes it simpler to get nice charts to spot anomalies.
 * [statsd](https://github.com/etsy/statsd/) is a tool from [Etsy](http://codeascraft.com/2011/02/15/measure-anything-measure-everything/).  It's essentially a daemon process that can receive messages from your applications via a UDP port.  Stasd receives and parses the message, and then aggregates it so that it can be analyzed by another tool (like graphite).
-* [Ganglia](http://ganglia.sourceforge.net/) is a BSD licensed monitoring tool that provide more granular detail and Nagios 
+* [Ganglia](http://ganglia.sourceforge.net/) is a BSD licensed monitoring tool that provide more granular detail and Nagios
+* [InfluxDB](http://influxdb.com/) is a time series, events, and metrics database.
+* [Grafana](http://grafana.org/) is an open source, feature rich metrics dashboard and graph editor for
+Graphite, InfluxDB & OpenTSDB.
