@@ -2,7 +2,7 @@
   "branch": "master",
   "files": [
     "cover.html",
-    "toc.md",
+    "toc.html",
     "README.md",
     "cloud-as-default.md",
     "ci-servers.md",
