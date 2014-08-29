@@ -22,7 +22,7 @@ There are lots of hosting services. Here are some of the more popular.
 * [Amazon Web Services](http://aws.amazon.com/).  AWS is probably the original model for pay-as-you-go infrastructure, and remains one of the leading cloud platforms.
 * [Google Compute Engine](https://cloud.google.com/products/compute-engine/).  Google's cloud platform, which has become much more compelling now that they have [open sourced their cluster management tools](http://googlecloudplatform.blogspot.com/2014/06/an-update-on-container-support-on-google-cloud-platform.html).
 * [Azure](http://www.windowsazure.com/). Microsoft's cloud offering.
-* [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full featured as AWS.
+* [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full-featured as AWS.
 
 ## Hosted PaaS
 
@@ -37,9 +37,9 @@ Hosted PaaS services add a layer on top of the raw offerings of hosting provider
 
 These are tools that create virtual internal clouds (i.e., on premise). While they're technically running in your own internal datacenter, they enable the concept of scalable, on-demand resources.
 
-* [Open Stack](https://www.openstack.org/).  Open source software for building  private and public clouds.
+* [Open Stack](https://www.openstack.org/).  Open source software for building private and public clouds.
 * [VMWare vCloud Suite](http://www.vmware.com/products/vcloud-suite/).  A tool for running and managing VMWare images in your own data center.
-*  [Mesos](http://mesos.apache.org/) / [Marathon](https://github.com/mesosphere/marathon) / [Chronos](https://github.com/airbnb/chronos) are a trio of technologies for managing and scheduling processes across a cluster of machines.  Apache Mesos provides the core clustering technology for the stack. Marathon, from [Mesosphere](http://mesosphere.io/), is a distributed tool for starting, stopping, and managing individual jobs on a Mesos cluster. (So, it's like a distributed version of [init](http://en.wikipedia.org/wiki/Init) or [upstart](http://upstart.ubuntu.com/)).  Chronos, developed by airbnb's engineering team, is a distributed, fault-tolerant replacement for cron (the classic UNIX job scheduling tool) for scheduling when jobs will start.
+*  [Mesos](http://mesos.apache.org/) / [Marathon](https://github.com/mesosphere/marathon) / [Chronos](https://github.com/airbnb/chronos) are a trio of technologies for managing and scheduling processes across a cluster of machines.  Apache Mesos provides the core clustering technology for the stack. Marathon, from [Mesosphere](http://mesosphere.io/), is a distributed tool for starting, stopping, and managing individual jobs on a Mesos cluster. (So, it's like a distributed version of [init](http://en.wikipedia.org/wiki/Init) or [upstart](http://upstart.ubuntu.com/)).  Chronos, developed by Airbnb's engineering team, is a distributed, fault-tolerant replacement for cron (the classic UNIX job scheduling tool) for scheduling when jobs will start.
 * [OpenShift Origin](https://openshift.github.io/) is an open source version of RedHat's Open Shift platform.
 
 ## For More Information
