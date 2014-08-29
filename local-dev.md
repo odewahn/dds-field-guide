@@ -1,4 +1,4 @@
-# The entire application runs locally in development
+# The entire application runs locally [INSERT LINE BREAK] in development
 
 <span class="drop fa fa-laptop fa-5x pull-left fa-border"></span>
 
