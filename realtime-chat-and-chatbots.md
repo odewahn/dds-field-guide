@@ -24,7 +24,7 @@ These are some of the more popular chat services and resources:
 These are resources for creating chatbots:
 
 * [Hubot](https://hubot.github.com/) is a Node.js chatbot engine from GitHub.  It provides the essential services like logging into the char service, listening for commands directed its way, executing corresponding scripts, and returning output.
-* [Hubot Script Catalog](http://hubot-script-catalog.herokuapp.com/) is a directory of useful (and totally useless!) scripts that can be plugged into the hubot framework.
+* [Hubot Script Catalog](http://hubot-script-catalog.herokuapp.com/) is a directory of useful (and totally useless!) scripts that can be plugged into the Hubot framework.
 
 
 ## For More Information
