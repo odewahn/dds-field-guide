@@ -1,4 +1,4 @@
-# Tests done in code, not by a QA department
+# Tests done in code, [INSERT LINE BREAK] not by a QA department
 
 <span class="drop fa fa-thumbs-o-up fa-5x pull-left fa-border"></span>
 
