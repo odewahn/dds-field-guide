@@ -1,4 +1,4 @@
-# Containerization for [INSERT LINE BREAK] production services
+# Containerization for production services
 
 <span class="drop fa fa-th-large fa-5x pull-left fa-border"></span>
 

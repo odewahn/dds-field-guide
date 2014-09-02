@@ -1,4 +1,4 @@
-# The environment is automated [INSERT LINE BREAK] in the code
+# The environment is automated in the code
 
 <span class="drop fa fa-wrench fa-5x pull-left fa-border"></span>
 
