@@ -1,18 +1,18 @@
 # Introduction
 
-This project began, inauspiciously, as a "Sticky" where I would paste interesting-seeming tools that I aspired to explore later.  
+This project began while we were developing [Atlas](https://atlas.oreilly.com/), O'Reilly Media's next generation publishing tool.  It seemed like every day we were finding interesting new tools in the DevOps space, so I started a "Sticky"  for the interesting-looking tools to explore later.  
  
 <img src="images/field-guide-sticky.png"/>    
 
 At first, this worked fine.  I was content to simply keep a list, where my only ordering criteria was "Huh, that looks cool.  Someday when I have time, I'll take a look at that," in the same way you might buy an exercise DVD and then only occasionally pull it out and think "Huh, someday I'll get to that."  But, as anyone who has watched DevOps for any length of time can tell you, it's a space bursting with interesting and exciting new tools, so my list and guilt quickly got out of hand.  
 
-So, as I reached the limits the Sticky as a medium, I started to look for patterns in my list.  Some were obvious.  For example, many of the tools, like Ansible, Salt, or (to a certain extent) Dockerfiles, fit into a clear infrastructure automation group pioneered by Chef, CFEngine, and Puppet. So, too, were the many cloud services.  
+Once I reached the limits the Sticky as a medium, I started to look for patterns in my list.  Some were obvious.  For example, many of the tools, like Ansible, Salt, or (to a certain extent) Dockerfiles, fit into a clear infrastructure automation group pioneered by Chef, CFEngine, and Puppet. So, too, the many cloud services.  
 
-But, where would something like CoreOS, Docker, or Mesos fit?  As I thought about how to group them, they seemed somehow tied up with the notion of containerization.  But, that just seemed too narrow.  Rather, these projects and tools were part of a much larger trend -- enabling clustering and distributed computing, and containerization was just a piece.  So, rather than group by technology, it seemed to make sense to me to group by trend -- in other words, what did the tool enable, and why was that trend important?  
+But, where would something like CoreOS, Docker, or Mesos fit?  As I thought about how to group them, they seemed somehow tied up with the notion of containerization, but that just seemed too narrow.  Rather, these projects and tools were part of a much larger trend — enabling clustering and distributed computing, and containerization was just a piece.  So, rather than group by technology, it seemed to make sense to me to group by trend — in other words, what did the tool enable, and why was that trend important?  
 
 Simultaneously, other people at O'Reilly were also exploring this same question, but from a different perspective.  In [Everything is distributed](http://radar.oreilly.com/2014/05/everything-is-distributed.html), Courtney Nash, the chair of [Velocity](http://velocityconf.com/),  was asking "how do we manage systems that are too large to understand, too complex to control, and that fail in unpredictable ways."   In [Beyond the stack](http://radar.oreilly.com/2014/05/beyond-the-stack.html), Mike Loukides was thinking about how "a new toolset has grown up to support the development of massively distributed applications," and described the profound consequences  that the shift from well-tended, internal servers to disposable VMs was having on the traditional "LAMP" stack.  (As well as its hipster cousin, the [MEAN stack](http://meanjs.org/).)  
 
-So, it's out of this context that my Sticky list grew into this [Field Guide for the Distributed Development Stack](http://odewahn.github.io/dds-field-guide/).  The Guide is organized into buckets based on a general observation, such as:
+So, it's from this context that my Sticky list grew into this [Field Guide for the Distributed Development Stack](http://odewahn.github.io/dds-field-guide/).  The Guide is organized into buckets based on a general observation, such as:
 
 * [The cloud is the default platform](http://sites.oreilly.com/odewahn/dds-field-guide/ch01.html)
 * [CI servers deploy code, not ops](http://sites.oreilly.com/odewahn/dds-field-guide/ch02.html)
