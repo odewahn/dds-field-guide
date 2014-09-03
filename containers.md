@@ -14,3 +14,4 @@ Containerization is the idea that an application and all its dependencies can be
 * [Flynn.io](https://flynn.io/).  Flynn, like Deis, provides a self-hosted PaaS.  
 * [kubernetes](https://github.com/GoogleCloudPlatform/kubernetes).  Kubernetes is an open source version of Google's internal cluster management toolchain.  You can use Kubernetes to run your own Docker containers on [Google Compute Engine](https://cloud.google.com/products/compute-engine/), Google's cloud platform.
 * [geard](http://openshift.github.io/geard/) is a tool for creating and managing Docker containers in [OpenShift](https://openshift.github.io/), RedHast's PaaS solution.
+* [Panamax](http://panamax.io/).  "Panamax is a containerized app creator with an open-source app marketplace hosted in GitHub. Panamax provides a friendly interface for users of Docker, Fleet & CoreOS. With Panamax, you can easily create, share and deploy any containerized app no matter how complex it might be"
