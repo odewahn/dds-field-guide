@@ -1,4 +1,4 @@
-# The cloud is the default platform
+# The Cloud Is the Default Platform
 
 <span class="drop fa fa-cloud fa-5x pull-left fa-border"></span>
 
