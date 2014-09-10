@@ -1,4 +1,4 @@
-# The Cloud Is the Default Platform
+# The cloud is the default platform
 
 <span class="drop fa fa-cloud fa-5x pull-left fa-border"></span>
 
@@ -12,7 +12,6 @@ The various platforms you're likely to encounter in this new world can be divide
 * Hosted PaaS services. These are value-added services built on top of raw hosting providers.  For example, a PaaS might allow you to easily spin up a machine based on a particular stack when you deploy your application.
 * Internal cloud and PaaS services.
 
-// this is a comment
 
 These are tools and services you're likely to encounter here:
 
