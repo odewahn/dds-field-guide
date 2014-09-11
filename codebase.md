@@ -1,20 +1,24 @@
-# The codebase is in Git
+# The Codebase Is in Git
 
 <span class="drop fa fa-code-fork fa-5x pull-left fa-border"></span>
 
-The version control system (VCS) is the heart of the process. At the most basic level, a VCS allows developers to keep track of all the changes made to a set of files and enables them to roll back to specific points in time in case something screws up. In some systems, like [Subversion](http://subversion.apache.org/), the code is checked out and then checked back in from a central repository. If there is a conflict between two developers' files (for example, both of them edited the same line of code), then the two version must be merged together. This can be a painful process.
+The version control system (VCS) is the heart of the process. At the most basic level, a VCS allows developers to keep track of all the changes made to a set of files and enables them to roll back to specific points in time in case something screws up. In some systems, like [Subversion](http://subversion.apache.org/), the code is checked out and then checked back in from a central repository. If there is a conflict between two developers' files (for example, both of them edited the same line of code), then the two version must be merged. This can be a painful process.
 
-In contrast, distributed version control systems (DVCS), like [git](http://git-scm.com/), are the heart of most new development processes. Rather than having a central, master copy that makes it difficult and expensive to merge a lot of contributions from developers, a DVCS makes it simple (well, simpler!) to have multiple people all working on the same codebase simultaneously in different _branches_, and these branches can be easily merged back together in a _master_ branch.
+In contrast, distributed version control systems (DVCS), like [Git](http://git-scm.com/), are the heart of most new development processes. Rather than having a central, master copy that makes it difficult and expensive to merge a lot of contributions from developers, a DVCS makes it simple (well, simpler!) to have multiple people all working on the same codebase simultaneously in different _branches_, and these branches can be easily merged in a _master_ branch.
 
-While there are many different work styles, such as [git flow](http://nvie.com/posts/a-successful-git-branching-model/), the basic DVCS process is:
+While there are many different work styles, such as [Git flow](http://nvie.com/posts/a-successful-git-branching-model/), the basic DVCS process is:
 
-* there is an agreed-upon master repository, which is often on a public service like [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/), or an internal server like [GitLab](https://www.gitlab.com/), or [Mercurial](http://mercurial.selenic.com/)
-* each developer clones the master repository to his or her local machine
-* the developer creates a new branch, usually for a specific feature
-* the developer makes commits against the local copy
-* once the feature is done, he or she merges the branch back into the master branch and pushes the change back to the master
-* other developers pull from the [MISSING WORD] and merge their branch
-* the merged copy preserves the full version history of all the distributed copies
+// Make numbered list.
+
+* There is an agreed-upon master repository, which is often on a public service like [GitHub](https://github.com/) or [BitBucket](https://bitbucket.org/), or an internal server like [GitLab](https://www.gitlab.com/) or [Mercurial](http://mercurial.selenic.com/).
+* Each developer clones the master repository to his or her local machine.
+* The developer creates a new branch, usually for a specific feature.
+* The developer makes commits against the local copy.
+* Once the feature is done, he or she merges the branch back into the master branch and pushes the change back to the master.
+* Other developers pull from the [MISSING WORD] and merge their branch.
+* The merged copy preserves the full version history of all the distributed copies.
+
+// Note missing word in preceding list.
 
 In addition to these coordination functions, most version control systems also offer a feature called a _hook_. A hook is a process that fires once a specific event, like a commit, happens to the repository. Hooks can be defined in the repo itself, but also in the hosting service. For example, GitHub lets you define "service" hooks that are called whenever a specific event occurs. These hooks are the tie-in to the continuous integration (CI server).
 
