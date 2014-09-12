@@ -30,9 +30,9 @@ Here are a few of the CI servers you might encounter:
 
 * [Hudson](http://hudson-ci.org/). Hudson is a CI server from Oracle written in Java.
 * [Jenkins](http://jenkins-ci.org/).  Jenkins, a fork of Hudson, is one of a leading open source CI servers. It has a host of useful plug-ins for tasks like build tasks, error reporting, and repository management.
-* [BuildBot](http://buildbot.net/).  Buildbot is an open source CI server based on Python.
+* [Buildbot](http://buildbot.net/).  Buildbot is an open source CI server based on Python.
 * [Travis](https://travis-ci.org/). Travis is a hosted CI solution that is used primarily by the Ruby community, particularly Rails.
-* [hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (e.g., Campfire or HipChat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
+* [Hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (e.g., Campfire or HipChat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
 
 
 
