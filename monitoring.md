@@ -4,7 +4,6 @@
 
 The monitoring infrastructure is perhaps the most foreign element in the DDS stack. Of all the parts of the software infrastructure, this was perhaps the most opaque. A disk would fill up, the monitoring system would alert the systems group, and they would quietly fix it without the developer being any the wiser.
 
-
 However, as more of the traditional admin functions spread to other parts of the organization, there's an increasing need for developers to view the monitoring infrastructure as just another part of the app. In addition to providing the sorts of critical alerts on failures, many monitoring tools are tailored to the application stack and can be used to pinpoint performance bottlenecks. 
 
 Most of these systems have two components: a client and a server.  The client is an agent that runs on the server you want to monitor; it is typically installed on the machine by a Chef or Puppet recipe (or Ansible or Salt or whatever tool you are using).  Whether it's a daemon or a cron job, the client periodically reports back key metrics to the central server.  The server provides the reporting interface, notification systems, and other functions that are required to smoothly maintain a large number of systems.
