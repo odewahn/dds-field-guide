@@ -26,19 +26,21 @@ In addition to these coordination functions, most version control systems also o
 
 Here are the key version control systems:
 
-* [git](http://git-scm.com/). "Git is a [free and open source](http://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
-* [mercurial](http://mercurial.selenic.com/). "Mercurial is a free, distributed source control management tool. It efficiently handles projects of any size and offers an easy and intuitive interface."
+* [Git](http://git-scm.com/). "Git is a [free and open source](http://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+* [Mercurial](http://mercurial.selenic.com/). "Mercurial is a free, distributed source control management tool. It efficiently handles projects of any size and offers an easy and intuitive interface."
 
 Hosting services provide a central point where you can manage and store all your code repositories. In addition to raw code storage, they usually offer features like issue tracking, collaborator management, and other process-oriented services.
 
 The following table lists hosting services managed by a 3rd party.  The pricing model is typically based on a block of repositories for a monthly fee.
+
+// Will this render properly as a table and not a list?
 
 * [GitHub](https://github.com/).  One of the largest and most successful Git hosting services.
 * [BitBucket](https://bitbucket.org/).  [Atlassian](https://www.atlassian.com/)'s Git hosting solution.
 * [GitLab.com](https://www.gitlab.com/). A hosting service based on the popular open source project GitLab HQ.
 * [Gitorious](https://gitorious.org/). Similar to GitLab, a hosted version of an open source tool that you can install and maintain yourself.
 
-These are services that you can install and manage in your own environment.
+These are services that you can install and manage in your own environment:
 
 * [GitLab](https://github.com/gitlabhq/gitlabhq).  "Project management and code hosting application."
 * [Gitosis](https://github.com/tv42/gitosis). "software for hosting Git repositories"
