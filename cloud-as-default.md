@@ -14,7 +14,7 @@ Hosted PaaS services::
  These are value-added services built on top of raw hosting providers. For example, a PaaS might allow you to easily spin up a machine based on a particular stack when you deploy your application.
 Internal cloud and PaaS services::
 
-// I changed the bulleted list to a variable list. I didn't see a description for the last item though.
+// I changed this and the following lists in this file list to variable lists, although I'm not sure this is the right way to do it in Markdown. Because of that, I just commented elsewhere in the project where I thought there should be a variable list instead. Also, I didn't see a description for the last item.
 
 These are tools and services you're likely to encounter here:
 
@@ -28,7 +28,7 @@ There are lots of hosting services. Here are some of the more popular:
  Google's cloud platform, which has become much more compelling now that they have [open sourced their cluster management tools](http://googlecloudplatform.blogspot.com/2014/06/an-update-on-container-support-on-google-cloud-platform.html).
 [Azure](http://www.windowsazure.com/)::
  Microsoft's cloud offering.
-[Rackspace cloud](https://mycloud.rackspace.com/):: 
+[Rackspace Cloud](https://mycloud.rackspace.com/):: 
  The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full-featured as AWS.
 
 ## Hosted PaaS
