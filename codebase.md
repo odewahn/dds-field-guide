@@ -8,17 +8,13 @@ In contrast, distributed version control systems (DVCS), like [Git](http://git-s
 
 While there are many different work styles, such as [Git flow](http://nvie.com/posts/a-successful-git-branching-model/), the basic DVCS process is:
 
-// Make numbered list.
-
 * There is an agreed-upon master repository, which is often on a public service like [GitHub](https://github.com/) or [BitBucket](https://bitbucket.org/), or an internal server like [GitLab](https://www.gitlab.com/) or [Mercurial](http://mercurial.selenic.com/).
 * Each developer clones the master repository to his or her local machine.
 * The developer creates a new branch, usually for a specific feature.
 * The developer makes commits against the local copy.
 * Once the feature is done, he or she merges the branch back into the master branch and pushes the change back to the master.
-* Other developers pull from the [MISSING WORD] and merge their branch.
+* Other developers pull from the master branch and merge their branch.
 * The merged copy preserves the full version history of all the distributed copies.
-
-// Note missing word in preceding list.
 
 In addition to these coordination functions, most version control systems also offer a feature called a _hook_. A hook is a process that fires once a specific event, like a commit, happens to the repository. Hooks can be defined in the repo itself, but also in the hosting service. For example, GitHub lets you define "service" hooks that are called whenever a specific event occurs. These hooks are the tie-in to the continuous integration (CI server).
 
@@ -32,8 +28,6 @@ Here are the key version control systems:
 Hosting services provide a central point where you can manage and store all your code repositories. In addition to raw code storage, they usually offer features like issue tracking, collaborator management, and other process-oriented services.
 
 The following table lists hosting services managed by a 3rd party.  The pricing model is typically based on a block of repositories for a monthly fee.
-
-// Will this render properly as a table and not a list?
 
 * [GitHub](https://github.com/).  One of the largest and most successful Git hosting services.
 * [BitBucket](https://bitbucket.org/).  [Atlassian](https://www.atlassian.com/)'s Git hosting solution.
