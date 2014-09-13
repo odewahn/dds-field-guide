@@ -17,9 +17,7 @@ These are some of the more popular chat services and resources:
 * [Campfire](campfirenow.com)
 * [HipChat](https://www.hipchat.com)
 * Google Chat
-* [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com/) lists text shortcuts that correspond to the emoji characters used in many chat services.
-
-// Do we want to link to Google Chat? And do we need an explanation for The Emoji Cheatsheet? If keeping it, OK to have the item punctuated but not the others in the list?
+* [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com/) is a fun resource that lists text shortcuts that correspond to the emoji characters used in many chat services.  For example, using the code ":boom:" creates a small explosion icon when it's rendered in chat.
 
 ## Chatbots
 
