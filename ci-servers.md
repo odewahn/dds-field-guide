@@ -26,8 +26,6 @@ The CI server executes a specific action on a repository when it receives a comm
 
 Here are a few of the CI servers you might encounter:
 
-// Make variable list.
-
 * [Hudson](http://hudson-ci.org/). Hudson is a CI server from Oracle written in Java.
 * [Jenkins](http://jenkins-ci.org/).  Jenkins, a fork of Hudson, is one of a leading open source CI servers. It has a host of useful plug-ins for tasks like build tasks, error reporting, and repository management.
 * [Buildbot](http://buildbot.net/).  Buildbot is an open source CI server based on Python.
