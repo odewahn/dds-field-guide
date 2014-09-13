@@ -2,7 +2,7 @@
 
 <span class="ico fa fa-code fa-5x pull-left fa-border"></span>
 
-No language is an island. Rather, every successful language (Ruby, Python, etc.) comes with an ecosystem of tools and frameworks. The goal of the following table is to map some of the key elements in these language ecosystems so that you can quickly cross-reference an unfamiliar stack against one you're familiar with.
+No language is an island. Rather, every successful language (Ruby, Python, etc.) comes with an ecosystem of tools and frameworks. The goal of the followingtable  is to map some of the key elements in these language ecosystems so that you can quickly cross-reference an unfamiliar stack against one you're familiar with.
 
 Why would you care, you ask? Well, even if you don't need to know a language in depth, you still might want to install and use some great open source package, so it helps to have an idea of what is what. This is not meant to be an exhaustive list, just an overview of the biggies in each ecosystem.
 
@@ -44,10 +44,8 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 
 * Frameworks
   * [Play](http://www.playframework.com/)
-* Package manager
+* Package management
 * Testing Tools
-
-// Should be "Package management" to be consistent with other lists?
 
 ## Go
 
@@ -55,6 +53,3 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 * Package manager
 * Testing tools
 
-// Should be "Package management" to be consistent with other lists?
-
-// OK that some of these items aren't linked to anything?
