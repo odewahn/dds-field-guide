@@ -10,8 +10,6 @@ One of the key tenets of the DDS movement is that developers should have a simpl
 
 The following table summarizes tools you will encounter:
 
-// Does the following list render as a table?
-
 * [Vagrant](http://www.vagrantup.com/).  "Create and configure lightweight, reproducible, and portable development environments."
 * [VirtualBox](https://www.virtualbox.org/). "VirtualBox is a powerful x86 and AMD64/Intel64  [Virtualization](https://www.virtualbox.org/wiki/Virtualization) product for enterprise as well as home use." Free and open source!  This tool allows you to run a full image of another operating system (called the "guest") on your own machine (called the "host"). 
 * [VMware](http://www.vmware.com/). One of the original virtualization solutions; Vagrant has a paid version that targets VMware fusion.
@@ -20,11 +18,7 @@ The following table summarizes tools you will encounter:
 
 ### Replicating third-party APIs locally
 
-// This is a C-level heading, yes?
-
 The develop "everything on localhost" approach breaks down somewhat when an application makes extensive use of third-party APIs. Clearly, you could not simply install Twitter or Facebook on your local machine. To get around this, there are a number of tools for mocking up the API results returned by these services. These include:
-
-// Make variable list. Also, maybe paraphrase description?
 
 * [Canned](https://github.com/sideshowcoder/canned). "Server to respond with fake API responses, by using a directory of files for finding out what to say."
 * [WireMock](http://wiremock.org/). "WireMock is a flexible library for stubbing and mocking web services."
