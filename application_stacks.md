@@ -1,8 +1,8 @@
-# Appendix A: Language stack quick reference
+# Appendix A: Language Stack Quick Reference
 
 <span class="ico fa fa-code fa-5x pull-left fa-border"></span>
 
-No language is an island. Rather, every successful language (Ruby, Python, etc.) comes with an ecosystem of tools and frameworks. The goal of the table below is to map some of the key elements in these language ecosystems so that you can quickly cross-reference an unfamiliar stack against one you're familiar with.
+No language is an island. Rather, every successful language (Ruby, Python, etc.) comes with an ecosystem of tools and frameworks. The goal of the followingtable  is to map some of the key elements in these language ecosystems so that you can quickly cross-reference an unfamiliar stack against one you're familiar with.
 
 Why would you care, you ask? Well, even if you don't need to know a language in depth, you still might want to install and use some great open source package, so it helps to have an idea of what is what. This is not meant to be an exhaustive list, just an overview of the biggies in each ecosystem.
 
@@ -11,10 +11,10 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 * Frameworks 
   * [Rails](http://rubyonrails.org/)
   * [Sinatra](http://www.sinatrarb.com/)
-* Package Management 
-  * [rubygems](http://rubygems.org/ "") 
+* Package management 
+  * [RubyGems](http://rubygems.org/ "") 
   * gem
-  * [bundler](http://bundler.io/)
+  * [Bundler](http://bundler.io/)
 * Testing tools
   * RSpec
   * [factory\_girl](https://github.com/thoughtbot/factory_girl)
@@ -22,33 +22,34 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 ## Python
 
 * Frameworks
-  * [django](https://www.djangoproject.com/)
-  * [flask](http://flask.pocoo.org/)
-  * [twisted](https://twistedmatrix.com/trac/)
-* Package Management
-  * [setup\_tools](https://pypi.python.org/pypi/setuptools)
+  * [Django](https://www.djangoproject.com/)
+  * [Flask](http://flask.pocoo.org/)
+  * [Twisted](https://twistedmatrix.com/trac/)
+* Package management
+  * [Setup\_tools](https://pypi.python.org/pypi/setuptools)
   * [pip](https://pypi.python.org/pypi/pip)
-* Testing Tools
+* Testing tools
 
 ## node
 
 * Frameworks  
   * [express](http://expressjs.com/)
-  * [meteor](https://www.meteor.com/)
-* Package Management
+  * [Meteor](https://www.meteor.com/)
+* Package management
   * npm
   * [npmjs](https://npmjs.org/)
-* Testing Tools
+* Testing tools
 
 ## Java
 
 * Frameworks
   * [Play](http://www.playframework.com/)
-* Package Manager
+* Package management
 * Testing Tools
 
 ## Go
 
 * Frameworks
-* Package Manager
-* Testing Tools
+* Package manager
+* Testing tools
+
