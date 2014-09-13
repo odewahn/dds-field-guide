@@ -4,8 +4,6 @@
 
 Containerization is the idea that an application and all its dependencies can be packaged and shipped in a standardized way that is the same for any platform.  This enables you, for example, to package a container you created and built on your development machine directly to a production server.  Be aware that the container only needs the dependencies and code from your app; other systems (like, oh, the operating system) can be shared with the host environment via a [Linux container](https://linuxcontainers.org/).  There are many, many tools in this rapidly emerging space, such as:
 
-// Make variable list.
-
 * [Docker](http://www.docker.com).  Written in Go, Docker is an open source project that provides a clean and simple way to create system images based on a known filesystem, layer new elements onto those images, and then spin up running instances of what you've done.  For example, you might start with a base images like "base/ubuntu", add a service like Redis, and then start the image to have a running Redis instance.  Docker handles process management, networking, and other services for you, allowing you to focus on adding just the parts you need.  There is also a company called (conveniently enough) Docker that maintains Docker, as well as providing a hosting service called the Index, where you can publish and maintain your images.  Like GitHub, they have a "free for public/paid for private" model.
 * [CoreOS](https://coreos.com/).  CoreOS is a Linux distro built for running and manageing applications that are packaged as Docker images.  The key components are:
    * Docker as the way you run apps.
