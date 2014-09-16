@@ -2,6 +2,7 @@
   "branch": "master",
   "files": [
     "cover.html",
+    "copyright.html",
     "toc.html",
     "README.md",
     "cloud-as-default.md",
@@ -20,20 +21,29 @@
     "pdf": {
       "version": "print",
       "index": false,
-      "toc": true
+      "toc": true,
+      "syntaxhighlighting": false,
+      "show_comments": false
     },
     "epub": {
       "index": false,
       "toc": false,
-      "epubcheck": false
+      "epubcheck": false,
+      "syntaxhighlighting": false,
+      "show_comments": false
     },
     "mobi": {
       "index": false,
-      "toc": false
+      "toc": false,
+      "syntaxhighlighting": false,
+      "show_comments": false
     },
     "html": {
       "index": false,
-      "toc": true
+      "toc": true,
+      "syntaxhighlighting": false,
+      "show_comments": false,
+      "consolidate": false
     }
   },
   "theme": "oreillymedia/oreilly_pocketref_theme",
