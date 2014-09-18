@@ -29,3 +29,12 @@ nav[data-type="toc"] li[data-type="appendix"]::marker {
     content: string(SectionTitle)"\2003\007C\2003"counter(page);
   }
 }
+
+/* customize chapter/appendix openers to match toc */
+section[data-type="chapter"] > h1:before {
+  content: none;
+}
+
+section[data-type="appendix"] > h1:before {
+  content: none;
+}
