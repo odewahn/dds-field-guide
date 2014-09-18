@@ -38,3 +38,6 @@ section[data-type="chapter"] > h1:before {
 section[data-type="appendix"] > h1:before {
   content: none;
 }
+
+/* reset first chapter page number */
+nav[data-type="toc"] + section[data-type="chapter"] { counter-reset: page 1 }
