@@ -5,4 +5,5 @@ nav[data-type="toc"] li[data-type="glossary"],
 nav[data-type="toc"] li[data-type="index"]
 /*nav[data-type="toc"] ul li.preface.afterword*/ {
   padding-right: 0.25in;
+  list-stylel-type: none;
 }
