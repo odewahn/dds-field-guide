@@ -1,1 +1,8 @@
-Type something here!
+nav[data-type="toc"] li[data-type="chapter"],
+nav[data-type="toc"] li[data-type="preface"],
+nav[data-type="toc"] li[data-type="appendix"],
+nav[data-type="toc"] li[data-type="glossary"],
+nav[data-type="toc"] li[data-type="index"]
+/*nav[data-type="toc"] ul li.preface.afterword*/ {
+  padding-right: 0.25in;
+}
