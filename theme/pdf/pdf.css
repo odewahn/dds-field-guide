@@ -16,3 +16,16 @@ nav[data-type="toc"] li[data-type="chapter"]:before {
 nav[data-type="toc"] li[data-type="appendix"]::marker {
   content: none;
 }
+
+/* customize footers for shorter content */
+@page chapter:left {
+  @bottom-left {
+    content: counter(page)"\2003\007C\2003"string(ChapterTitle);
+  }
+}
+
+@page chapter:right {
+  @bottom-right {
+    content: string(SectionTitle)"\2003\007C\2003"counter(page);
+  }
+}
