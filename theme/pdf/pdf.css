@@ -12,3 +12,7 @@ nav[data-type="toc"] li[data-type="index"]
 nav[data-type="toc"] li[data-type="chapter"]:before {
   content: none;
 }
+
+nav[data-type="toc"] li[data-type="appendix"]::marker {
+  content: none;
+}
