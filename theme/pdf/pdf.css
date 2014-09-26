@@ -41,3 +41,9 @@ section[data-type="appendix"] > h1:before {
 
 /* reset first chapter page number */
 nav[data-type="toc"] + section[data-type="chapter"] { counter-reset: page 1 }
+
+/* Add Extra 1/4" trim for spiral binding */
+/*Only use this for Print PDF version to be spiral bound*/
+@page { size: 4.5in 7in }
+@page :left { margin-right: 0.75in }
+@page :right { margin-left: 0.75in }
