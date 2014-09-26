@@ -1,4 +1,0 @@
-/* Add Extra 1/4" trim for spiral binding */
-@page { size: 4.5in 7in }
-@page :left { margin-right: 0.75in }
-@page :right { margin-left: 0.75in }
