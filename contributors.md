@@ -1,4 +1,4 @@
-# Appendix C: Contributors
+# Appendix: Contributors
 
 * Mike Loukides — @mikeloukides
 * Courney Nash — @courtneynash
