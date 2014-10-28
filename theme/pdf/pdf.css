@@ -41,3 +41,18 @@ section[data-type="appendix"] > h1:before {
 
 /* reset first chapter page number */
 nav[data-type="toc"] + section[data-type="chapter"] { counter-reset: page 1 }
+
+/* customize title page to fit */
+section[data-type="halftitlepage"] h1,
+section[data-type="titlepage"] h1 {
+  
+  font-size: 20pt; /* Animal Books @ 31.5, ~ 2.15 / 2.8 Ratio */
+  
+}
+
+/* Add Extra 1/4" trim for spiral binding */
+/*Only use this for Print PDF version to be spiral bound*/
+/* @page { size: 4.5in 7in }
+@page :left { margin-right: 0.75in }
+@page :right { margin-left: 0.75in }
+*/

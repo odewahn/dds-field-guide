@@ -1,7 +1,7 @@
 {
   "branch": "master",
   "files": [
-    "cover.html",
+    "titlepage.html",
     "copyright.html",
     "toc.html",
     "README.md",
@@ -47,7 +47,7 @@
     }
   },
   "theme": "oreillymedia/oreilly_pocketref_theme",
-  "title": "Distributed Development Stack (DDS) Field Guide",
+  "title": "A Field Guide to the Distributed Development Stack ",
   "github_url": "https://github.com/odewahn/dds-field-guide",
   "practice-area": "webops"
 }
