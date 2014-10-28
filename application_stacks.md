@@ -8,11 +8,11 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 
 ## Ruby
 
-* Frameworks 
+* Frameworks
   * [Rails](http://rubyonrails.org/)
   * [Sinatra](http://www.sinatrarb.com/)
-* Package management 
-  * [RubyGems](http://rubygems.org/ "") 
+* Package management
+  * [RubyGems](http://rubygems.org/ "")
   * gem
   * [Bundler](http://bundler.io/)
 * Testing tools
@@ -35,6 +35,7 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 * Frameworks  
   * [express](http://expressjs.com/)
   * [Meteor](https://www.meteor.com/)
+  * [Ember.js](http://emberjs.com/)
 * Package management
   * npm
   * [npmjs](https://npmjs.org/)
@@ -44,8 +45,14 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 
 * Frameworks
   * [Play](http://www.playframework.com/)
+  * [Spring](http://projects.spring.io/spring-framework/)
+  * [Dropwizard](http://dropwizard.io/)Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.
 * Package management
+  * [Maven](https://maven.apache.org/)
+  * [Ant]
+  * [Gradle]
 * Testing Tools
+  * [JUnit](http://junit.org/)
 
 ## Go
 
@@ -53,3 +60,9 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 * Package manager
 * Testing tools
 
+## Scala
+
+* Frameworks
+* Package manager
+  * [sbt]
+* Testing tools
