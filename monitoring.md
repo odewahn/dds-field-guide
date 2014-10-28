@@ -19,7 +19,7 @@ Here are some monitoring tools you might encounter:
 * [Hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (e.g., Campfire or HipChat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
 * [Nagios](http://www.nagios.org/). Nagios is an open source monitoring tool that has been around for a long time. It has hundreds of client plug-ins that can report all manner of system performance metrics.
 * [Kale](http://codeascraft.com/2013/06/11/introducing-kale/).  Kale is Etsy's monitoring platform and is "designed to solve the problem of metrics overload."
-* [Graphite](http://graphite.wikidot.com/).  Graphite is a tool for "scaleable realtime graphing."  Once you have a data feed, graphite makes it simpler to get nice charts to spot anomalies.
+* [Graphite](http://graphite.readthedocs.org/).  Graphite is a tool for "scaleable realtime graphing."  Once you have a data feed, graphite makes it simpler to get nice charts to spot anomalies.
 * [StatsD](https://github.com/etsy/statsd/) is a tool from [Etsy](http://codeascraft.com/2011/02/15/measure-anything-measure-everything/).  It's essentially a daemon process that can receive messages from your applications via a UDP port.  StatsD receives and parses the message and then aggregates it so that it can be analyzed by another tool (like Graphite).
 * [Ganglia](http://ganglia.sourceforge.net/) is a BSD-licensed monitoring tool that provide more granular detail than Nagios.
 * [InfluxDB](http://influxdb.com/) is a time series, events, and metrics database.
