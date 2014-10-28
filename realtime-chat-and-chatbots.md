@@ -6,7 +6,7 @@ Once considered a relic of a bygone era, real-time chat systems are now a huge p
 
 <img style="width: 300px; float:left; margin-right: 20px" src="images/chatbot.png"/>
 
-In addition to human participants, team chats can include a _chatbot_, which is a program that performs useful functions by monitoring the chatroom for special commands.  The chatbot, which appears like anyone else in the room, can do routine tasks such as kicking off a build, locking the production server, reporting errors from the monitoring tools, or providing manpages.  And, programmers being programmers, the chatbot can also do things that reflect the culture of the team, like showing pictures of a pug, displaying a squirrel whenever you type "ship it," or providing responses in a Magic 8 Ball form when you ask it questions.  The chatbot usually reflects the culture of the team that's using it and can often become an informal mascot for the group. 
+In addition to human participants, team chats can include a _chatbot_, which is a program that performs useful functions by monitoring the chatroom for special commands.  The chatbot, which appears like anyone else in the room, can do routine tasks such as kicking off a build, locking the production server, reporting errors from the monitoring tools, or providing manpages.  And, programmers being programmers, the chatbot can also do things that reflect the culture of the team, like showing pictures of a pug, displaying a squirrel whenever you type "ship it," or providing responses in a Magic 8 Ball form when you ask it questions.  The chatbot usually reflects the culture of the team that's using it and can often become an informal mascot for the group.
 
 
 
@@ -16,6 +16,7 @@ These are some of the more popular chat services and resources:
 
 * [Campfire](campfirenow.com)
 * [HipChat](https://www.hipchat.com)
+* [Slack](slack.com)
 * Google Chat
 * [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com/) is a fun resource that lists text shortcuts that correspond to the emoji characters used in many chat services.  For example, using the code ":boom:" creates a small explosion icon when it's rendered in chat.
 
@@ -31,4 +32,3 @@ These are resources for creating chatbots:
 
 * [Say "Hello" to Hubot](https://github.com/blog/968-say-hello-to-hubot) is a blog post from GitHub, the company that developed the popular Hubot chatbot.
 * [ChatOps at GitHub](https://www.youtube.com/watch?v=NST3u-GjjFw) is a video explaining the chatbot-based ops workflow at GitHub.
-
