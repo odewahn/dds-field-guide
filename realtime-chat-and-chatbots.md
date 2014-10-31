@@ -14,9 +14,9 @@ In addition to human participants, team chats can include a _chatbot_, which is 
 
 These are some of the more popular chat services and resources:
 
-* [Campfire](campfirenow.com)
+* [Campfire](https://campfirenow.com/)
 * [HipChat](https://www.hipchat.com)
-* [Slack](slack.com)
+* [Slack](https://slack.com/)
 * Google Chat
 * [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com/) is a fun resource that lists text shortcuts that correspond to the emoji characters used in many chat services.  For example, using the code ":boom:" creates a small explosion icon when it's rendered in chat.
 
