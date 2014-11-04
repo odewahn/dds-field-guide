@@ -34,7 +34,7 @@
     },
     "mobi": {
       "index": false,
-      "toc": false,
+      "toc": true,
       "syntaxhighlighting": false,
       "show_comments": false
     },
