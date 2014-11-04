@@ -19,8 +19,8 @@
   ],
   "formats": {
     "pdf": {
-      "version": "print",
-      "index": false,
+      "version": "web",
+      "index": true,
       "toc": true,
       "syntaxhighlighting": false,
       "show_comments": false
@@ -43,7 +43,8 @@
       "toc": true,
       "syntaxhighlighting": false,
       "show_comments": false,
-      "consolidate": false
+      "consolidate": false,
+      "consolidated": false
     }
   },
   "theme": "oreillymedia/oreilly_pocketref_theme",
