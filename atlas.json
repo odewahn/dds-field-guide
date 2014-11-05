@@ -28,14 +28,14 @@
     "epub": {
       "index": false,
       "toc": true,
-      "epubcheck": false,
-      "syntaxhighlighting": false,
+      "epubcheck": true,
+      "syntaxhighlighting": true,
       "show_comments": false
     },
     "mobi": {
       "index": false,
       "toc": true,
-      "syntaxhighlighting": false,
+      "syntaxhighlighting": true,
       "show_comments": false
     },
     "html": {
