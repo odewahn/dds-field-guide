@@ -22,7 +22,7 @@ So, it's from this context that my Sticky list grew into this [Field Guide to th
 * [The monitoring infrastructure is critical](http://sites.oreilly.com/odewahn/dds-field-guide/ch07.html)
 * [Tests done in code, not by a QA department](http://sites.oreilly.com/odewahn/dds-field-guide/ch08.html)
 
-In addition to being a (hopefully) useful framework, the Guide is also meant to be a living resource. So, [we've put the source on GitHub](https://github.com/odewahn/dds-field-guide) and invite you to contribute. If you feel like we've missed a tool (which we most certainly have, since new things are popping up every day) or a major theme, then fork the repo and send me a pull request. We'll be keeping this document up to date and republishing it as we watch this trend continue to grow.  We'll use [O'Reilly Atlas](atlas.oreilly.com) to pull in the contributions and periodically republish the guide.
+In addition to being a (hopefully) useful framework, the Guide is also meant to be a living resource. So, [we've put the source on GitHub](https://github.com/odewahn/dds-field-guide) and invite you to contribute. If you feel like we've missed a tool (which we most certainly have, since new things are popping up every day) or a major theme, then fork the repo and send me a pull request. We'll be keeping this document up to date and republishing it as we watch this trend continue to grow.  We'll use [O'Reilly Atlas](https://atlas.oreilly.com) to pull in the contributions and periodically republish the guide.
 
 This is still very much a work-in-progress, but I hope it will be a resource you'll add to your own Sticky collection.
 
