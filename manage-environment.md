@@ -12,8 +12,7 @@ A key idea (maybe _the_ key idea) of DevOps is that the environment in which you
 
 The following table lists some of the configuration and environment automation tools you might encounter:
 
-* [Chef](http://www.getchef.com/chef/). "Chef is built to address the hardest infrastructure challenges on the planet. By modeling IT infrastructure and application delivery as code, Chef provides the power and flexibility to compete in the digital economy." 
-* [OpsWorks](http://aws.amazon.com/opsworks/). The [OpsWorks community site](http://community.opscode.com/) has thousands of recipes for installing and configuring a range of services.
+* [Chef](http://www.getchef.com/chef/). "Chef is built to address the hardest infrastructure challenges on the planet. By modeling IT infrastructure and application delivery as code, Chef provides the power and flexibility to compete in the digital economy." You can find thousands of recipes for installing and configuring a range of services at their [community site](https://www.getchef.com/community/).
 * [Fabric](http://docs.fabfile.org/en/1.8/). "Fabric is a Python (2.5-2.7) library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks."
 * [Puppet](http://puppetlabs.com/). "Puppet Labs' software gives systems administrators the operational agility, efficiency, and insight they need to manage dynamic infrastructure, on-premise or in the cloud."
 * [CFEngine](http://cfengine.com/community). "CFEngine Community is the Open Source foundation of CFEngine's innovative configuration management technology that helps systems administrators automate and ensure the availability, security and compliance of mission-critical applications and services."
