@@ -62,6 +62,12 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 ## Go
 
 * Frameworks
+  * [Gorilla Web Toolkit](http://www.gorillatoolkit.org/) is a collection of libraries to provide context, more powerfull router and dispatcher (mux), RPC and session management.
+  * [Negroni](http://negroni.codegangsta.io/) is a HTTP middleware library over net/http. It provides middlewares and makes it easy to create your own.
+  * [gocraft/web](https://github.com/gocraft/web) is a router (mux) and middleware package.
 * Package manager
+  * [go get](https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies) is go builtin package and dependencies manager
+  * [godep](https://github.com/tools/godep) is a go dependencies manager.
 * Testing tools
+  * [testing](http://golang.org/pkg/testing/) is go standard library testing library (to use with 'go-test')
 
