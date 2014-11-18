@@ -31,9 +31,9 @@ Here are a few of the CI servers you might encounter:
 * [Buildbot](http://buildbot.net/).  Buildbot is an open source CI server based on Python.
 * [Travis](https://travis-ci.org/). Travis is a hosted CI solution that is used primarily by the Ruby community, particularly Rails.
 * [Hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (e.g., Campfire or HipChat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
-* [Shippable] (http://shippable.com/) Shippable is a hosted CI solution built on Docker with Webhooks.
-* [Wercker] (http://wercker.com/). Wercker is a hosted CI solution built on Docker with Webhooks.
+* [Shippable](http://shippable.com/) Shippable is a hosted CI solution built on Docker with Webhooks.
+* [Wercker](http://wercker.com/). Wercker is a hosted CI solution built on Docker with Webhooks.
 
 ## Continuous Deployment
-* [Distelli]
-* [Capistrano]
+* [Distelli](http://www.distelli.com/). Deployment and process management.
+* [Capistrano](http://capistranorb.com/). Automation and deployment tool. [Webistrano](https://github.com/peritor/webistrano) provides a web frontend to Capistrano.
