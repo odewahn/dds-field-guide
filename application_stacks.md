@@ -53,9 +53,9 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
   * [Dropwizard](http://dropwizard.io/)Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.
 * Package management
   * [Maven](https://maven.apache.org/)
-  * [Ant] (http://ant.apache.org/)
-  * [Gradle] (http://www.gradle.org/)
-  * [sbt] (http://www.scala-sbt.org/) Scala-based interactive build tool.
+  * [Ant](http://ant.apache.org/)
+  * [Gradle](http://www.gradle.org/)
+  * [sbt](http://www.scala-sbt.org/) Scala-based interactive build tool.
 * Testing Tools
   * [JUnit](http://junit.org/)
 
