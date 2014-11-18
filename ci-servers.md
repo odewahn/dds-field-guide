@@ -33,7 +33,10 @@ Here are a few of the CI servers you might encounter:
 * [Hubot](http://hubot.github.com/).  Hubot is a chatbot from GitHub. It allows you to easily create scripts that you can use inside your chatroom (e.g., Campfire or HipChat) to deploy new code, receive messages from the build server, or get messages from your monitoring tools when things go wrong.
 * [Shippable] (http://shippable.com/) Shippable is a hosted CI solution built on Docker with Webhooks.
 * [Wercker] (http://wercker.com/). Wercker is a hosted CI solution built on Docker with Webhooks.
+* [Circle CI](https://circleci.com/) is a hosted Continuous Integration and Deployment with Docker support.
+* [Drone](https://github.com/drone/drone) is an open-source (and [hosted](https://drone.io/) ) Continuous Integration platform built on Docker
 
 ## Continuous Deployment
 * [Distelli]
 * [Capistrano]
+* [GoCD](http://www.go.cd/) is an open-source Continuous Delivery with pipeline model
