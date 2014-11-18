@@ -27,8 +27,8 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
   * [Twisted](https://twistedmatrix.com/trac/)
 * Package management
   * [Setup\_tools](https://pypi.python.org/pypi/setuptools) is a python packaging library for distribution, test, installation, dependency management, and metadata handling of python projects.
-  * [pip](https://pypi.python.org/pypi/pip). Pip is a package manager, to install, remove, and manage packages and depedency. It can handle [build distribution](https://www.python.org/dev/peps/pep-0427/) to ship and deploy a specific distribution of your code and depedencies.
-  * [Virtualenv](https://virtualenv.pypa.io/en/latest/) is a Python environment isolation, to manage application depedencies in a folder, outside of system-wise packages.
+  * [pip](https://pypi.python.org/pypi/pip). Pip is a package manager, to install, remove, and manage packages and dependency. It can handle [build distribution](https://www.python.org/dev/peps/pep-0427/) to ship and deploy a specific distribution of your code and dependencies.
+  * [Virtualenv](https://virtualenv.pypa.io/en/latest/) is a Python environment isolation, to manage application dependencies in a folder, outside of system-wise packages.
 * Testing tools
   * [Nose](https://nose.readthedocs.org/en/latest/) is a testing tool and library to help test Python code.
   * [Coverage](https://pypi.python.org/pypi/coverage) provides code coverage.
