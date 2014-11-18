@@ -22,13 +22,17 @@ Why would you care, you ask? Well, even if you don't need to know a language in 
 ## Python
 
 * Frameworks
-  * [Django](https://www.djangoproject.com/)
-  * [Flask](http://flask.pocoo.org/)
+  * [Django](https://www.djangoproject.com/). Django is a modular, high-level Python Web framework that ships with an ORM, a template engine and lots of helpers.
+  * [Flask](http://flask.pocoo.org/) is a popular wsgi micro-framework, with embeded development server and debugger, template support (via [Jinja2](http://jinja.pocoo.org/) ) and restfull handlers. Flask supports [extensions](http://flask.pocoo.org/extensions/) to add functionnalities.
   * [Twisted](https://twistedmatrix.com/trac/)
 * Package management
-  * [Setup\_tools](https://pypi.python.org/pypi/setuptools)
-  * [pip](https://pypi.python.org/pypi/pip)
+  * [Setup\_tools](https://pypi.python.org/pypi/setuptools) is a python packaging library for distribution, test, installation, dependency management, and metadata handling of python projects.
+  * [pip](https://pypi.python.org/pypi/pip). Pip is a package manager, to install, remove, and manage packages and depedency. It can handle [build distribution](https://www.python.org/dev/peps/pep-0427/) to ship and deploy a specific distribution of your code and depedencies.
+  * [Virtualenv](https://virtualenv.pypa.io/en/latest/) is a Python environment isolation, to manage application depedencies in a folder, outside of system-wise packages.
 * Testing tools
+  * [Nose](https://nose.readthedocs.org/en/latest/) is a testing tool and library to help test Python code.
+  * [Coverage](https://pypi.python.org/pypi/coverage) provides code coverage.
+  * [Mock](https://pypi.python.org/pypi/mock) is a mocking library for Python. It is now included in Python's standard library sinc 3.3.
 
 ## node
 
