@@ -48,6 +48,7 @@ These are tools that create virtual public or internal clouds (private,i.e. on p
 * [Flynn](https://flynn.io/) is an open-source PaaS for public and private clouds, built on [Docker](https://www.docker.com/).
 * [Dokku](https://github.com/progrium/dokku) is a Docker-powered small PaaS, written in bash, with modularity in mind.
 * [Kubernetes](https://github.com/googlecloudplatform/kubernetes) is an open-source container cluster management, built by google.
+* [Eucalyptus](https://www.eucalyptus.com) is an open source, AWS compatible private cloud software.
 
 ## For More Information
 
