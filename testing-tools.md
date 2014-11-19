@@ -12,3 +12,4 @@ The following table lists testing tools you're likely to encounter:
 * [PhantomJS](http://phantomjs.org/). "PhantomJS is a headless WebKit scriptable with a JavaScript API. "
 * [Canned](https://github.com/sideshowcoder/canned). "Server to respond with fake API responses by using a directory of files for finding out what to say."
 * [Selenium](http://www.seleniumhq.org). "Selenium automates browsers. Primarily, it is for automating web applications for testing purposes, but is certainly not limited to just that."
+* [Watir](http://watir.com). "Watir, pronounced water, is an open-source (BSD) family of Ruby libraries for automating web browsers."
