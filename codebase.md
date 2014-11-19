@@ -39,3 +39,4 @@ These are services that you can install and manage in your own environment:
 * [GitLab](https://github.com/gitlabhq/gitlabhq).  "Project management and code hosting application."
 * [Gitosis](https://github.com/tv42/gitosis). "software for hosting Git repositories"
 * [Gitorious](https://gitorious.org/gitorious). The self-hosted version of gitorious.org. (It's a Rails app.)
+* [Kallithea](https://kallithea-scm.org/). Source code management system for Git and Mercurial.
