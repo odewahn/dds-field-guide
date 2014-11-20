@@ -5,3 +5,4 @@
 * Paco Nathan — @pacoid | https://github.com/ceteri
 * Andrew Odewahn — @odewahn | https://github.com/odewahn
 * Jean-Christophe Bohin — @bohinjc | https://github.com/jcbohin
+* Jason Yee — @gitbisect | https://github.com/jyee
