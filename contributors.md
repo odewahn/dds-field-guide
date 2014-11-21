@@ -4,3 +4,4 @@
 * Courney Nash — @courtneynash
 * Paco Nathan — @pacoid | https://github.com/ceteri
 * Andrew Odewahn — @odewahn | https://github.com/odewahn
+* Raghavan "Rags" N. Srinivas - @ragss | https://github.com/ragsns
