@@ -36,6 +36,7 @@ Here are a few of the CI servers you might encounter:
 * [Circle CI](https://circleci.com/) is a hosted Continuous Integration and Deployment with Docker support.
 * [Drone](https://github.com/drone/drone) is an open-source (and [hosted](https://drone.io/) ) Continuous Integration platform built on Docker
 
+
 ## Continuous Deployment
 * [Distelli](http://www.distelli.com/). Deployment and process management.
 * [Capistrano](http://capistranorb.com/). Automation and deployment tool. [Webistrano](https://github.com/peritor/webistrano) provides a web frontend to Capistrano.

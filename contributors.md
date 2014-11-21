@@ -7,3 +7,4 @@
 * Jean-Christophe Bohin — @bohinjc | https://github.com/jcbohin
 * Jason Yee — @gitbisect | https://github.com/jyee
 * Matt Williams - @matty_jwilliams | https://github.com/mattyw
+* Raghavan "Rags" N. Srinivas - @ragss | https://github.com/ragsns
