@@ -18,7 +18,8 @@ The following table lists some of the configuration and environment automation t
 * [CFEngine](http://cfengine.com/community). "CFEngine Community is the Open Source foundation of CFEngine's innovative configuration management technology that helps systems administrators automate and ensure the availability, security and compliance of mission-critical applications and services."
 * [Ansible](http://www.ansible.com/home). "Ansible is the simplest way to automate apps and IT infrastructure."
 * [Salt](http://www.saltstack.com/). "Fast, scalable and flexible software for data center automation, from infrastructure and any cloud, to the entire application stack"
-* [Docker](https://www.docker.io/learn/dockerfile/level1/). If you're building a Docker image, you can specify a lot of the dependencies by specifying a [dockerfile](https://www.docker.io/learn/dockerfile/level1/) for the container. 
+* [Docker](https://www.docker.io/learn/dockerfile/level1/). "If you're building a Docker image, you can specify a lot of the dependencies by specifying a [dockerfile](https://www.docker.io/learn/dockerfile/level1/) for the container."
+* [Juju](https://juju.ubuntu.com/). "Juju lets you define applications as charms that know how to setup your app and relate it to other charms. It has a charmstore which contains many community reviewed charms for existing services. Using juju these charms can be deployed to many existing cloud providers or locally using LXC"
 
 ## For More Information
 
