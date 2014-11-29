@@ -35,6 +35,9 @@ Hosted PaaS services add a layer on top of the raw offerings of hosting provider
 * [Google App Engine](https://cloud.google.com/appengine/) is google PaaS service, that supports Python, Go, PHP and Java.
 * [AppFog](https://www.appfog.com/) is a PaaS provider with fine-grained stack management.
 * [dotCloud](https://www.dotcloud.com/) is a PaaS provider from the creators of Docker, the famous container open-source tool.
+* [Pivotal Web Services](http://run.pivotal.io) A PaaS based on Cloud Foundry hosted by Pivotal, the largest contributor to the Cloud Foundry Open Source project.
+* [Bluemix](https://bluemix.net/) A PaaS based on Cloud Foundry hosted by IBM.
+* [Helion](http://www8.hp.com/us/en/cloud/helion-overview.html) A PaaS based on OpenStack and Cloud Foundry hosted by HP.
 
 ## Internal Services and Build-your-own Cloud
 
@@ -49,6 +52,7 @@ These are tools that create virtual public or internal clouds (private,i.e. on p
 * [Dokku](https://github.com/progrium/dokku) is a Docker-powered small PaaS, written in bash, with modularity in mind.
 * [Kubernetes](https://github.com/googlecloudplatform/kubernetes) is an open-source container cluster management, built by google.
 * [Eucalyptus](https://www.eucalyptus.com) is an open source, AWS compatible private cloud software.
+* [Cloud Foundry](http://www.cloudfoundry.org) is a open source PaaS backed by the Cloud Foundry Foundation with companies such as Pivotal, IBM, SAP, HP, VMware, SAP and tens of others.
 
 ## For More Information
 
