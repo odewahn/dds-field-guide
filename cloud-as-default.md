@@ -52,7 +52,7 @@ These are tools that create virtual public or internal clouds (private,i.e. on p
 * [Dokku](https://github.com/progrium/dokku) is a Docker-powered small PaaS, written in bash, with modularity in mind.
 * [Kubernetes](https://github.com/googlecloudplatform/kubernetes) is an open-source container cluster management, built by google.
 * [Eucalyptus](https://www.eucalyptus.com) is an open source, AWS compatible private cloud software.
-* [Cloud Foundry](http://www.cloudfoundry.org) is a open source PaaS backed by the Cloud Foundry Foundation with companies such as Pivotal, IBM, SAP, HP, VMware, SAP and tens of others.
+* [Cloud Foundry](http://www.cloudfoundry.org) is a open source PaaS backed by the Cloud Foundry Foundation with companies such as Pivotal, IBM, HP, VMware, SAP and tens of others.
 
 ## For More Information
 
