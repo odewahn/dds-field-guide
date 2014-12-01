@@ -9,3 +9,4 @@
 * Matt Williams - @matty_jwilliams | https://github.com/mattyw
 * Raghavan "Rags" N. Srinivas - @ragss | https://github.com/ragsns
 * James Bayer - @jambay | http://github.com/jbayer
+* Torstein Gjengedal - @gjengeda | https://github.com/gjengeda
