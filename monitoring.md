@@ -4,7 +4,7 @@
 
 The monitoring infrastructure is perhaps the most foreign element in the DDS stack. Of all the parts of the software infrastructure, this was perhaps the most opaque. A disk would fill up, the monitoring system would alert the systems group, and they would quietly fix it without the developer being any the wiser.
 
-However, as more of the traditional admin functions spread to other parts of the organization, there's an increasing need for developers to view the monitoring infrastructure as just another part of the app. In addition to providing the sorts of critical alerts on failures, many monitoring tools are tailored to the application stack and can be used to pinpoint performance bottlenecks. 
+However, as more of the traditional admin functions spread to other parts of the organization, there's an increasing need for developers to view the monitoring infrastructure as just another part of the app. In addition to providing the sorts of critical alerts on failures, many monitoring tools are tailored to the application stack and can be used to pinpoint performance bottlenecks. Beyond architecture, logging key events within the application itself to generate operational-level reporting (from very granular conversions, bevaior tracking, workflow bottlenecks, etc) can yield enormous insight, and frameworks exist to record events at any point within the code.
 
 Most of these systems have two components: a client and a server.  The client is an agent that runs on the server you want to monitor; it is typically installed on the machine by a Chef or Puppet recipe (or Ansible or Salt or whatever tool you are using).  Whether it's a daemon or a cron job, the client periodically reports back key metrics to the central server.  The server provides the reporting interface, notification systems, and other functions that are required to smoothly maintain a large number of systems.
 
@@ -24,3 +24,6 @@ Here are some monitoring tools you might encounter:
 * [Ganglia](http://ganglia.sourceforge.net/) is a BSD-licensed monitoring tool that provide more granular detail than Nagios.
 * [InfluxDB](http://influxdb.com/) is a time series, events, and metrics database.
 * [Grafana](http://grafana.org/) is an open source, feature-rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.
+* [Apache Logging Services](http://logging.apache.org/) includes the popular logging libraries log4j, log4net, etc, as well as the Chainsaw viewer, that developers can use to quickly log in-application events to files, databases table, or external services.
+* [Loggly](https://www.loggly.com/) is a cloud logging service (from developers that worked on Splunk) with a generous free tier.
+* [Splunk](http://www.splunk.com/), [Zenoss](http://www.zenoss.com/) are on-site solutions designed to manage hundreds to thousands of servers. Zenoss is open source.
