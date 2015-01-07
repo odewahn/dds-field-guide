@@ -48,7 +48,7 @@
       "consolidated": false
     }
   },
-  "theme": "https://github.com/odewahn/simple_theme.git",
+  "theme": "git@github.com:odewahn/simple_theme.git",
   "title": "A Field Guide to the Distributed Development Stack ",
   "github_url": "https://github.com/odewahn/dds-field-guide",
   "practice-area": "webops",
