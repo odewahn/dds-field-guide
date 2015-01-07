@@ -48,8 +48,10 @@
       "consolidated": false
     }
   },
-  "theme": "oreillymedia/oreilly_pocketref_theme",
+  "theme": "https://github.com/odewahn/simple_theme.git",
   "title": "A Field Guide to the Distributed Development Stack ",
   "github_url": "https://github.com/odewahn/dds-field-guide",
-  "practice-area": "webops"
+  "practice-area": "webops",
+  "ga_code": "UA-39014713-4",
+  "forum_shortname": "dockerjumpstart"
 }
