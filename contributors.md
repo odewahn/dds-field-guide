@@ -11,3 +11,4 @@
 * James Bayer - @jambay | http://github.com/jbayer
 * Torstein Gjengedal - @gjengeda | https://github.com/gjengeda
 * Phil Jackson - @underscorephil | https://github.com/underscorephil
+* Duncan Lamb - https://github.com/dethkultur
