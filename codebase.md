@@ -4,7 +4,7 @@
 
 The version control system (VCS) is the heart of the process. At the most basic level, a VCS allows developers to keep track of all the changes made to a set of files and enables them to roll back to specific points in time in case something screws up. In some systems, like [Subversion](http://subversion.apache.org/), the code is checked out and then checked back in from a central repository. If there is a conflict between two developers' files (for example, both of them edited the same line of code), then the two version must be merged. This can be a painful process.
 
-In contrast, distributed version control systems (DVCS), like [Git](http://git-scm.com/), are the heart of most new development processes. Rather than having a central, master copy that makes it difficult and expensive to merge a lot of contributions from developers, a DVCS makes it simple (well, simpler!) to have multiple people all working on the same codebase simultaneously in different _branches_, and these branches can be easily merged in a _master_ branch.
+In contrast, distributed version control systems (DVCS), like [Git](http://git-scm.com/), are the heart of most new development processes. Rather than having a central, master copy that makes it difficult and expensive to merge a lot of contributions from developers, a DVCS makes it simple (well, simpler!) to have multiple people all working on the same codebase simultaneously in different _branches_, and these branches can be easily merged into a _master_ branch.
 
 While there are many different work styles, such as [Git flow](http://nvie.com/posts/a-successful-git-branching-model/), the basic DVCS process is:
 
@@ -12,7 +12,7 @@ While there are many different work styles, such as [Git flow](http://nvie.com/p
 * Each developer clones the master repository to his or her local machine.
 * The developer creates a new branch, usually for a specific feature.
 * The developer makes commits against the local copy.
-* Once the feature is done, he or she merges the branch back into the master branch and pushes the change back to the master.
+* Once the feature is done, he or she merges the branch back into the master branch and pushes the change back to the master copy of the repository.
 * Other developers pull from the master branch and merge their branch.
 * The merged copy preserves the full version history of all the distributed copies.
 
