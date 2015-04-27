@@ -12,3 +12,4 @@
 * Torstein Gjengedal - @gjengeda | https://github.com/gjengeda
 * Phil Jackson - @underscorephil | https://github.com/underscorephil
 * Duncan Lamb - https://github.com/dethkultur
+* Kyle Smith - @kylesm | http://github.com/kylesm
