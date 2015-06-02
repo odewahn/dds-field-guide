@@ -35,6 +35,7 @@ Here are a few of the CI servers you might encounter:
 * [Wercker](http://wercker.com/). Wercker is a hosted CI solution built on Docker with Webhooks.
 * [Circle CI](https://circleci.com/) is a hosted Continuous Integration and Deployment with Docker support.
 * [Drone](https://github.com/drone/drone) is an open-source (and [hosted](https://drone.io/) ) Continuous Integration platform built on Docker
+* [Bamboo](https://www.atlassian.com/software/bamboo) Bamboo is an Atlassian CI/CD tool that integrates seamlessly with other Atlassian products such as JIRA, Confluence and Stash.
 
 
 ## Continuous Deployment
