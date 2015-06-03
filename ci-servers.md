@@ -36,6 +36,7 @@ Here are a few of the CI servers you might encounter:
 * [Circle CI](https://circleci.com/) is a hosted Continuous Integration and Deployment with Docker support.
 * [Drone](https://github.com/drone/drone) is an open-source (and [hosted](https://drone.io/) ) Continuous Integration platform built on Docker
 * [Bamboo](https://www.atlassian.com/software/bamboo) Bamboo is an Atlassian CI/CD tool that integrates seamlessly with other Atlassian products such as JIRA, Confluence and Stash.
+* [Codeship](https://codeship.com) Codeship is a hosted CI/CD service. Codeship will run your project's unit tests, and can also deploy new code to your servers via Capistrano, Amazon EBS, Heroku, custom scripts, and many others.
 
 
 ## Continuous Deployment
