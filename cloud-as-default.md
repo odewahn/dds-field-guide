@@ -32,7 +32,7 @@ There are lots of hosting services. Here are some of the more popular:
 Hosted PaaS services add a layer on top of the raw offerings of hosting providers:
 
 * [Heroku](https://www.heroku.com/).  A PaaS service built on top of AWS. Unlike AWS, which gives you a raw machine, Heroku allows the developer to push an application into the service and have a corresponding application stack provision for the machine.
-* [OpenShift](https://www.openshift.com/) is a cloud-hosted PaaS solution developer by RedHat, the company behind [RHEL](http://www.redhat.com/products/enterprise-linux/) Linux distribution.
+* [OpenShift](https://www.openshift.com/) is a cloud-hosted PaaS solution developer by Red Hat, the company behind [Red Hat Enterprise Linux](http://www.redhat.com/products/enterprise-linux/) distribution.
 * [Google App Engine](https://cloud.google.com/appengine/) is Google PaaS service, that supports Python, Go, PHP and Java.
 * [AppFog](https://www.appfog.com/) is a PaaS provider with fine-grained stack management.
 * [dotCloud](https://www.dotcloud.com/) is a PaaS provider from the creators of Docker, the famous container open-source tool.
@@ -44,16 +44,16 @@ Hosted PaaS services add a layer on top of the raw offerings of hosting provider
 
 These are tools that create virtual public or internal clouds (private,i.e. on premise). While they're technically running in your own (internal) datacenter, they enable the concept of scalable, on-demand resources:
 
-* [Open Stack](https://www.openstack.org/).  Open source software for building private and public clouds.
+* [OpenStack](https://www.openstack.org/).  Open source software for building private and public clouds.
 * [VMware vCloud Suite](http://www.vmware.com/products/vcloud-suite/).  A tool for running and managing VMware images in your own data center.
 * [Mesos](http://mesos.apache.org/) / [Marathon](https://github.com/mesosphere/marathon) / [Chronos](https://github.com/airbnb/chronos) are a trio of technologies for managing and scheduling processes across a cluster of machines. Apache Mesos provides the core clustering technology for the stack. Marathon, from [Mesosphere](http://mesosphere.io/), is a distributed tool for starting, stopping, and managing individual jobs on a Mesos cluster. (So, it's like a distributed version of [init](http://en.wikipedia.org/wiki/Init) or [upstart](http://upstart.ubuntu.com/)). Chronos, developed by Airbnb's engineering team, is a distributed, fault-tolerant replacement for cron (the classic UNIX job scheduling tool) for scheduling when jobs will start.
-* [OpenShift Origin](https://openshift.github.io/) is an open source version of RedHat's Open Shift platform.
+* [OpenShift Origin](https://openshift.github.io/) is the upstream version of Red Hat's open source OpenShift platform.
 * [Deis](http://deis.io/) is an open-source PaaS for public and private clouds, built on [Docker](https://www.docker.com/) and [CoreOS](https://coreos.com/).
 * [Flynn](https://flynn.io/) is an open-source PaaS for public and private clouds, built on [Docker](https://www.docker.com/).
 * [Dokku](https://github.com/progrium/dokku) is a Docker-powered small PaaS, written in bash, with modularity in mind.
 * [Kubernetes](https://github.com/googlecloudplatform/kubernetes) is an open-source container cluster management, built by Google.
 * [Eucalyptus](https://www.eucalyptus.com) is an open source, AWS compatible private cloud software.
-* [Cloud Foundry](http://www.cloudfoundry.org) is a open source PaaS backed by the Cloud Foundry Foundation with companies such as Pivotal, IBM, HP, VMware, SAP and tens of others.
+* [Cloud Foundry](http://www.cloudfoundry.org) is an open source PaaS backed by the Cloud Foundry Foundation with companies such as Pivotal, IBM, HP, VMware, SAP and tens of others.
 
 ## For More Information
 
