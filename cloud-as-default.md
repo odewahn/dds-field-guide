@@ -26,6 +26,7 @@ There are lots of hosting services. Here are some of the more popular:
 * [Digital Ocean](https://www.digitalocean.com/). Cloud provider with SSD, low prices, snapshot and pre-build images
 * [Linode](https://www.linode.com/) is a hosting service that offers SSD for really fast access.
 * [SoftLayer](http://www.softlayer.com/). Offers virtual and bare-metal servers. API covers the full feature-set. Global routed private network.
+* [DreamCompute](https://www.dreamhost.com/cloud/).  Long a mainstay of shared hosting, DreamHost offers a public cloud platform based on OpenStack.
 
 ## Hosted PaaS
 
