@@ -26,4 +26,5 @@ Here are some monitoring tools you might encounter:
 * [Grafana](http://grafana.org/) is an open source, feature-rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.
 * [Apache Logging Services](http://logging.apache.org/) includes the popular logging libraries log4j, log4net, etc, as well as the Chainsaw viewer, that developers can use to quickly log in-application events to files, databases table, or external services.
 * [Loggly](https://www.loggly.com/) is a cloud logging service (from developers that worked on Splunk) with a generous free tier.
-* [Splunk](http://www.splunk.com/), [Zenoss](http://www.zenoss.com/) are on-site solutions designed to manage hundreds to thousands of servers. Zenoss is open source.
+* [Splunk](http://www.splunk.com/). Splunk is a data collection and analytics tool. Splunk offers three versions: Enterprise (on-prem or self-hosted), Cloud (SaaS) and Light (either self-hosted or as a service).
+* [Zenoss](http://www.zenoss.org/). Zenoss Core is an open source tool that provides full stack monitoring. Zenoss, Inc. also offers the commercial product [Zenoss Service Dynamics](http://www.zenoss.com) for both on-prem and as-a-service.
