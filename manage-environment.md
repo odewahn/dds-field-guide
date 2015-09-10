@@ -20,6 +20,7 @@ The following table lists some of the configuration and environment automation t
 * [Salt](http://www.saltstack.com/). "Fast, scalable and flexible software for data center automation, from infrastructure and any cloud, to the entire application stack"
 * [Docker](https://www.docker.io/learn/dockerfile/level1/). "If you're building a Docker image, you can specify a lot of the dependencies by specifying a [dockerfile](https://www.docker.io/learn/dockerfile/level1/) for the container."
 * [Juju](https://juju.ubuntu.com/). "Juju lets you define applications as charms that know how to setup your app and relate it to other charms. It has a charmstore which contains many community reviewed charms for existing services. Using juju these charms can be deployed to many existing cloud providers or locally using LXC"
+* [Terraform](https://terraform.io). "Terraform allows you to effortlessly combine high-level system providers with your own or with each other – from physical and virtual servers to email and DNS providers."
 
 ## For More Information
 
