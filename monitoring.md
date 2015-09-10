@@ -28,3 +28,4 @@ Here are some monitoring tools you might encounter:
 * [Loggly](https://www.loggly.com/) is a cloud logging service (from developers that worked on Splunk) with a generous free tier.
 * [Splunk](http://www.splunk.com/). Splunk is a data collection and analytics tool. Splunk offers three versions: Enterprise (on-prem or self-hosted), Cloud (SaaS) and Light (either self-hosted or as a service).
 * [Zenoss](http://www.zenoss.org/). Zenoss Core is an open source tool that provides full stack monitoring. Zenoss, Inc. also offers the commercial product [Zenoss Service Dynamics](http://www.zenoss.com) for both on-prem and as-a-service.
+* [ELK Stack](https://www.elastic.co). Elastic's open source products Elasticsearch, Logstash and Kibana are commonly used together and known as the "ELK Stack." Logstash provides data collection and transport; Elasticsearch provides storage, data search and analytics; and Kibana is a data vizualization platform.
