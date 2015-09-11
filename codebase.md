@@ -33,6 +33,7 @@ The following table lists hosting services managed by a 3rd party.  The pricing 
 * [BitBucket](https://bitbucket.org/).  [Atlassian](https://www.atlassian.com/)'s Git hosting solution.
 * [GitLab.com](https://www.gitlab.com/). A hosting service based on the popular open source project GitLab HQ.
 * [Gitorious](https://gitorious.org/). Similar to GitLab, a hosted version of an open source tool that you can install and maintain yourself.
+* [Beanstalk](http://beanstalkapp.com). Beanstalk hosts Git and SVN repositories. It also provides webhooks and many built-in integrations for continuous deployment and automation.
 
 These are services that you can install and manage in your own environment:
 
