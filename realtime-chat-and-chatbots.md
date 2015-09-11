@@ -25,8 +25,9 @@ These are some of the more popular chat services and resources:
 
 These are resources for creating chatbots:
 
-* [Hubot](https://hubot.github.com/) is a Node.js chatbot engine from GitHub.  It provides the essential services like logging into the char service, listening for commands directed its way, executing corresponding scripts, and returning output.
+* [Hubot](https://hubot.github.com/) is a Node.js chatbot engine from GitHub.  It provides the essential services like logging into the chat service, listening for commands directed its way, executing corresponding scripts, and returning output.
 * [Hubot Script Catalog](http://hubot-script-catalog.herokuapp.com/) is a directory of useful (and totally useless!) scripts that can be plugged into the Hubot framework.
+* [Lita] (https://www.lita.io/) is a chat bot similar to Hubot but written in Ruby with persistent storage provided by Redis. It uses a plugin system to connect to different chat services and to provide new behavior. The plugin system uses the familiar tools of the Ruby ecosystem: RubyGems and Bundler.
 
 
 ## For More Information
