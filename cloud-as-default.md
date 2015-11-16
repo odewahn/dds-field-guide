@@ -55,6 +55,7 @@ These are tools that create virtual public or internal clouds (private,i.e. on p
 * [Kubernetes](https://github.com/googlecloudplatform/kubernetes) is an open-source container cluster management, built by Google.
 * [Eucalyptus](https://www.eucalyptus.com) is an open source, AWS compatible private cloud software.
 * [Cloud Foundry](http://www.cloudfoundry.org) is an open source PaaS backed by the Cloud Foundry Foundation with companies such as Pivotal, IBM, HP, VMware, SAP and tens of others.
+* [Tsuru](https://tsuru.io/) is an extensible and open source Platform as a Service software, built on [Docker](https://www.docker.com/).
 
 ## For More Information
 
