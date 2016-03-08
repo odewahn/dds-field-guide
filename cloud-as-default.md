@@ -25,7 +25,7 @@ There are lots of hosting services. Here are some of the more popular:
 * [Rackspace cloud](https://mycloud.rackspace.com/). The cloud offering from Rackspace is mostly about compute power and storage. The API is well done, and the customer service is generally outstanding. Overall, though, it's not as full-featured as AWS.
 * [Digital Ocean](https://www.digitalocean.com/). Cloud provider with SSD, low prices, snapshot and pre-build images
 * [Linode](https://www.linode.com/) is a hosting service that offers SSD for really fast access.
-* [SoftLayer](http://www.softlayer.com/). Offers virtual and bare-metal servers. API covers the full feature-set. Global routed private network.
+* [SoftLayer](http://www.softlayer.com/). An IBM's cloud that offers virtual and bare-metal servers. API covers the full feature-set. Global routed private network.
 * [DreamCompute](https://www.dreamhost.com/cloud/).  Long a mainstay of shared hosting, DreamHost offers a public cloud platform based on OpenStack.
 
 ## Hosted PaaS
