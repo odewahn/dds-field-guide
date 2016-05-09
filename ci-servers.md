@@ -38,9 +38,12 @@ Here are a few of the CI servers you might encounter:
 * [Bamboo](https://www.atlassian.com/software/bamboo) Bamboo is an Atlassian CI/CD tool that integrates seamlessly with other Atlassian products such as JIRA, Confluence and Stash.
 * [Codeship](https://codeship.com) Codeship is a hosted CI/CD service. Codeship will run your project's unit tests, and can also deploy new code to your servers via Capistrano, Amazon EBS, Heroku, custom scripts, and many others.
 * [DeployBot](http://deploybot.com). DeployBot is a hosted service that provides many repository, environment and service integrations. It also features automated code compilation.
+* [TeamCity](https://www.jetbrains.com/teamcity/) is a Java-based build management and continuous integration server from [JetBrains](https://www.jetbrains.com/) (formerly IntelliJ).
+* [Concourse](https://concourse.ci/) is an open-source CI/CD tool developed by [Pivotal](http://pivotal.io/) aiming to provide an expressive system with as few distinct moving parts as possible.
 
 
 ## Continuous Deployment
 * [Distelli](http://www.distelli.com/). Deployment and process management.
 * [Capistrano](http://capistranorb.com/). Automation and deployment tool. [Webistrano](https://github.com/peritor/webistrano) provides a web frontend to Capistrano.
 * [GoCD](http://www.go.cd/) is an open-source continuous delivery tool built around a pipeline model.
+* [Octopus Deploy](https://octopus.com/) is a friendly deployment automation tool for .NET developers.
